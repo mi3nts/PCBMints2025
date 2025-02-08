@@ -1,0 +1,5 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"AVAILABILITY";"CHECK_PRICES";"DESCRIPTION";"MANUFACTURER";"MAXIMUM_PACKAGE_HEIGHT";"MF";"MP";"PACKAGE";"PARTREV";"PRICE";"SNAPEDA_LINK";"STANDARD";
+"1";"M20-9980346";"M20-9980346";"HARWIN_M20-9980346";"J2";"";"";"";"";"HARWIN";"";"";"";"";"";"";"";"Manufacturer Recommendations";
+"2";"M20-9990246";"M20-9990246";"HARWIN_M20-9990246";"J3, J4";"";"";"";"";"Harwin";"9.64mm";"";"";"";"14";"";"";"Manufacturer Recommendations";
+"4";"MOUNTINGHOLE2.5";"MOUNTINGHOLE2.5";"MOUNTINGHOLE_2.5_PLATED";"U$1, U$2, U$3, U$4";"Mounting Hole";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"TGS2611-C00";"TGS2611-C00";"TO180P920X780-4P";"J1";"Methane, Natural Gas sensor, Check availability";"Not in stock";"https://www.snapeda.com/parts/TGS2611-C00/Figaro/view-part/?ref=eda";"                                                      Gas Sensor 4-Pin TO-5                                              ";"";"";"Figaro";"TGS2611-C00";"None";"";"None";"https://www.snapeda.com/parts/TGS2611-C00/Figaro/view-part/?ref=snap";"";

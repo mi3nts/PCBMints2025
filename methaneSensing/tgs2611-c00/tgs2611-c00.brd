@@ -810,6 +810,18 @@ einem neuen Namen ab.</description>
 <wire x1="15.76" y1="5.685" x2="16.098" y2="6.023" width="0.254" layer="1"/>
 <wire x1="0.014" y1="9.277" x2="0.014" y2="3.677" width="0.254" layer="1"/>
 <wire x1="24.246" y1="7.36" x2="24.246" y2="12.96" width="0.254" layer="1"/>
+<polygon width="0.1524" layer="1" isolate="0.15">
+<vertex x="-2" y="22"/>
+<vertex x="26" y="22"/>
+<vertex x="26" y="-2"/>
+<vertex x="-2" y="-2"/>
+</polygon>
+<polygon width="0.1524" layer="16" isolate="0.1">
+<vertex x="-2" y="22"/>
+<vertex x="26" y="22"/>
+<vertex x="26" y="-2"/>
+<vertex x="-2" y="-2"/>
+</polygon>
 </signal>
 <signal name="ADDR1">
 <contactref element="U1" pad="8"/>
