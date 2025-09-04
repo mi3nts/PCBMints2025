@@ -1,0 +1,14 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"AVAILABILITY";"CHECK_PRICES";"DESCRIPTION";"MANUFACTURER";"MAXIMUM_PACKAGE_HEIGHT";"MF";"MP";"PACKAGE";"PARTREV";"PRICE";"SNAPEDA_LINK";"STANDARD";
+"2";"";"SOLDERJUMPERREFLOW_NOPASTE";"SOLDERJUMPER_REFLOW_NOPASTE";"A0, A1";"SMD Solder JUMPER";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"0.1/1% (PT2512FK-070R1L)";"RESISTOR2512";"2512";"R5";"Resistors";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"0.1µF";"CAP_CERAMIC0603";"0603";"C1";"Ceramic Capacitors";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"10K";"RESISTOR0603";"0603";"R1";"Resistors";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"10K";"RESISTOR_0603MP";"_0603MP";"R7";"Resistors";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"10K";"RESISTOR_4PACK";"RESPACK_4X0603";"R6";"Resistor Packs (4 resistors)";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"10uF";"CAP_CERAMIC_0805MP";"_0805MP";"C2";"Ceramic Capacitors";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"GREEN";"LED0603_NOOUTLINE";"CHIPLED_0603_NOOUTLINE";"D1";"LED";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"INA219BIDCNT";"INA219";"SOT23-8";"U1";"INA219 - I2C Current/Power Monitor";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"M20-9980346";"M20-9980346";"HARWIN_M20-9980346";"J2";"";"";"";"";"HARWIN";"";"";"";"";"";"";"";"Manufacturer Recommendations";
+"4";"MOUNTINGHOLE2.5";"MOUNTINGHOLE2.5";"MOUNTINGHOLE_2.5_PLATED";"U$1, U$6, U$7, U$8";"Mounting Hole";"";"";"";"";"";"";"";"";"";"";"";"";
+"2";"STEMMA_I2C_QT";"STEMMA_I2C_QT";"JST_SH4";"CONN3, CONN4";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"TGS2611-C00";"TGS2611-C00";"TO180P920X780-4P";"J3";"Methane, Natural Gas sensor, Check availability";"Not in stock";"https://www.snapeda.com/parts/TGS2611-C00/Figaro/view-part/?ref=eda";"                                                      Gas Sensor 4-Pin TO-5                                              ";"";"";"Figaro";"TGS2611-C00";"None";"";"None";"https://www.snapeda.com/parts/TGS2611-C00/Figaro/view-part/?ref=snap";"";

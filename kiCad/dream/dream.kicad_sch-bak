@@ -15089,7 +15089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded:EEV107M010S9GAA"
+		(property "Footprint" "EEV107M010S9GAA:CAPAE660X565N"
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -15168,15 +15168,6 @@
 			)
 		)
 		(property "Vendor" "https://www.digikey.com/en/products/detail/kemet/EEV107M010S9GAA/6597867"
-			(at 161.29 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Custom Feild" ""
 			(at 161.29 146.05 0)
 			(effects
 				(font
@@ -20357,15 +20348,6 @@
 				(hide yes)
 			)
 		)
-		(property "Custom Feild" ""
-			(at 210.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "d96d3d0e-da85-4e3f-9934-547f3431e223")
 		)
@@ -20414,7 +20396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "downloaded:RC0603FR-07330RL"
+		(property "Footprint" "RC0603FR-07330RL:RESC1607X60N"
 			(at 123.19 146.05 0)
 			(effects
 				(font
@@ -20443,15 +20425,6 @@
 			)
 		)
 		(property "Vendor" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162"
-			(at 123.19 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Custom Feild" ""
 			(at 123.19 146.05 0)
 			(effects
 				(font
