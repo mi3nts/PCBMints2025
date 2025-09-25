@@ -1,0 +1,10 @@
+### Footprint positions - created on 2025-09-25T16:16:25-0500 ###
+### Printed by KiCad version 9.0.2
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                               PosX       PosY       Rot  Side
+J1        GPIO              PinSocket_2x20_P2.54mm_Vertical   -34.1000    23.0000  -90.0000  bottom
+J11       10132328-10011LF  10132328-10011LF                  -10.0000     0.0000  180.0000  bottom
+R6        RC0603FR-075K1L   RC0603N_YAG-L                     -16.0000    -1.0000   90.0000  bottom
+R7        RC0603FR-075K1L   RC0603N_YAG-L                      -4.0000    -1.0000  -90.0000  bottom
+## End
