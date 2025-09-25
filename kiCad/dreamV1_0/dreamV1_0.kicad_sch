@@ -11816,7 +11816,7 @@
 		)
 		(uuid "b64a2cd2-1bcf-4d65-ac61-508537c93d3e")
 	)
-	(label "GPIO6{slash}SCL5"
+	(label "GPIO22{slash}SCL3"
 		(at 271.78 34.29 0)
 		(effects
 			(font

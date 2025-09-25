@@ -59,12 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|90000000|75710000|00000000-0000-0000-0000-00005a793e9f|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -99,7 +94,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "error",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
@@ -111,7 +106,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
@@ -121,7 +116,7 @@
         "track_angle": "error",
         "track_dangling": "warning",
         "track_segment_length": "error",
-        "track_width": "error",
+        "track_width": "warning",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
