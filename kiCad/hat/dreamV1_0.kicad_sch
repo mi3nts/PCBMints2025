@@ -2043,514 +2043,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Adafruit PowerBoost 1000C Rev B-eagle-import:-PNP_DRIVER-SC59-BEC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "T"
-				(at -10.16 7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -10.16 5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit PowerBoost 1000C Rev B:SC59-BEC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PNP Bias Resistor Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-PNP_DRIVER-SC59-BEC_1_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.826 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 0.762) (xy -4.572 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 -0.508) (xy -4.318 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0.762) (xy -4.064 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 -0.508) (xy -3.81 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0.762) (xy -3.556 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 -0.508) (xy -3.302 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 0) (xy -2.286 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 2.032) (xy -1.778 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 1.524) (xy -1.778 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 1.016) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.556) (xy 2.54 3.556)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 2.54) (xy -2.286 3.556)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0.762) (xy -2.794 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.286 0)
-					(radius 0.254)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -2.286 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -0.254 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy -2.794 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 1.27) (xy -2.794 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -2.54)
-					(end 0.508 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.5159 1.478) (xy 2.0861 1.6779)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.651) (xy 1.778 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 1.905) (xy 1.524 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 2.413) (xy 0.762 1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 2.159) (xy 1.143 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5781 2.5941) (xy 0.5159 1.478)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.778) (xy 1.524 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.778) (xy 1.524 2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.0861 1.6779) (xy 1.5781 2.5941)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 3.556)
-					(radius 0.254)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.808 2.1239)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.508 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Adafruit PowerBoost 1000C Rev B-eagle-import:5.0V"
 			(power)
 			(exclude_from_sim no)
@@ -4304,151 +3796,6 @@
 						)
 					)
 					(number "P$21"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Adafruit PowerBoost 1000C Rev B-eagle-import:TERMBLOCK_1X2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit PowerBoost 1000C Rev B:TERMBLOCK_1X2-3.5MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.5mm Terminal block\n\nhttp://www.ladyada.net/library/pcb/eaglelibrary.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TERMBLOCK_1X2_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -7319,6 +6666,306 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MMUN2133LT1G:MMUN2133LT1G"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.084 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MMUN2133LT1G"
+				(at 5.086 -2.543 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MMUN2133LT1G:SOT95P240X111-3N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "ON Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MMUN2133LT1G_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 -2.54)
+					(end 0.508 2.54)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.5159 1.478) (xy 2.0861 1.6779)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.651) (xy 1.778 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 1.905) (xy 1.524 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.413) (xy 0.762 1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.159) (xy 1.143 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5781 2.5941) (xy 0.5159 1.478)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.778) (xy 1.524 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.778) (xy 1.524 2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.0861 1.6779) (xy 1.5781 2.5941)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 1.808 2.1239)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PT2512FK-070R1L:PT2512FK-070R1L"
 			(pin_names
 				(offset 1.016)
@@ -8964,6 +8611,170 @@
 				)
 			)
 			(symbol "10uF_0805_25V_10%_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-Capacitor:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+				(at 0.9652 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+				(at 1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "CAP-00000"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "1kV"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "100%"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -11877,6 +11688,12 @@
 		(uuid "67908b9a-5efc-4ed6-b132-ee5446924d82")
 	)
 	(junction
+		(at 81.28 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7f7dfc-c80e-454b-834d-19c96876cab2")
+	)
+	(junction
 		(at 267.335 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11919,16 +11736,16 @@
 		(uuid "8174b4de-74b1-48db-ab8e-c8432251095b")
 	)
 	(junction
+		(at 81.28 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f39223-15d3-49f9-8f7e-f90582ce10a0")
+	)
+	(junction
 		(at 325.12 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ba557b6-d4d2-46bc-93a1-6901ef50dde4")
-	)
-	(junction
-		(at 379.73 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e9c2839-d09e-4db2-a23b-5d4df8133d65")
 	)
 	(junction
 		(at 30.48 184.15)
@@ -11947,12 +11764,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd51892-9c91-4f35-aa33-567f89220155")
-	)
-	(junction
-		(at 321.31 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0c41c8b-57d4-444b-9898-cb9b91b3dac7")
 	)
 	(junction
 		(at 30.48 181.61)
@@ -12395,16 +12206,6 @@
 			(type solid)
 		)
 		(uuid "0694ca26-7b8c-4c30-bae9-3b74fab1e60a")
-	)
-	(wire
-		(pts
-			(xy 321.31 185.42) (xy 313.69 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0814b392-aead-42e6-8747-9f5f8ef96dc2")
 	)
 	(wire
 		(pts
@@ -12936,6 +12737,16 @@
 		)
 		(uuid "3162052c-acc5-453e-830c-f717c27fc1f1")
 	)
+	(wire
+		(pts
+			(xy 379.73 187.96) (xy 379.73 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c94e72-6883-4bb6-96f8-3298f8427e86")
+	)
 	(polyline
 		(pts
 			(xy 145.415 12.065) (xy 145.415 55.88)
@@ -13178,7 +12989,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 128.27) (xy 80.01 128.27)
+			(xy 76.2 128.27) (xy 81.28 128.27)
 		)
 		(stroke
 			(width 0)
@@ -13195,6 +13006,16 @@
 			(type default)
 		)
 		(uuid "409b9d75-faf0-406a-be7c-b34a18e3ac36")
+	)
+	(wire
+		(pts
+			(xy 379.73 207.01) (xy 379.73 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431c1d6f-d2a7-4818-bbfa-bf9939cb6c53")
 	)
 	(wire
 		(pts
@@ -13218,7 +13039,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 139.7) (xy 321.31 142.24)
+			(xy 323.85 167.64) (xy 323.85 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13418,16 +13239,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 177.8) (xy 379.73 177.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5438d59e-5a0d-43c9-9f53-759fd9b512b4")
-	)
-	(wire
-		(pts
 			(xy 382.27 162.56) (xy 384.81 162.56)
 		)
 		(stroke
@@ -13585,16 +13396,6 @@
 			(type default)
 		)
 		(uuid "580caa6b-a1e1-4923-aba1-2364c30988a9")
-	)
-	(wire
-		(pts
-			(xy 321.31 147.32) (xy 321.31 185.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5a3824b2-8394-4c9b-b3f0-fd8d59e5a075")
 	)
 	(wire
 		(pts
@@ -13808,16 +13609,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 180.34) (xy 389.89 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "63300263-f7b6-41e8-a86c-5e538fb8ed49")
-	)
-	(wire
-		(pts
 			(xy 152.4 181.61) (xy 158.75 181.61)
 		)
 		(stroke
@@ -14028,6 +13819,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 134.62) (xy 81.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc036ff-9277-4cf6-a142-b1b8f22a1f03")
+	)
+	(wire
+		(pts
 			(xy 200.66 74.93) (xy 203.2 74.93)
 		)
 		(stroke
@@ -14158,6 +13959,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 175.26) (xy 323.85 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765c3a01-1527-4f52-8826-8a38e6432d68")
+	)
+	(wire
+		(pts
 			(xy 187.96 104.14) (xy 189.23 104.14)
 		)
 		(stroke
@@ -14225,6 +14036,16 @@
 			(type solid)
 		)
 		(uuid "7d1a0af8-a3d8-4dbb-9873-21a280e175b7")
+	)
+	(wire
+		(pts
+			(xy 81.28 128.27) (xy 86.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d64d2c8-0039-42bb-8d02-ae94fd8e399e")
 	)
 	(wire
 		(pts
@@ -14488,16 +14309,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 180.34) (xy 387.35 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8a4bb5b0-e59f-41a8-aa3a-0ed7ac69f605")
-	)
-	(wire
-		(pts
 			(xy 60.96 46.99) (xy 87.63 46.99)
 		)
 		(stroke
@@ -14525,6 +14336,16 @@
 			(type solid)
 		)
 		(uuid "8ccbbafc-2cdc-415a-ac78-6ccd25489208")
+	)
+	(wire
+		(pts
+			(xy 369.57 199.39) (xy 372.11 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0a4a68-0c44-4c4f-8be1-bb65ea401757")
 	)
 	(polyline
 		(pts
@@ -14678,6 +14499,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 135.89) (xy 87.63 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ad9e75-9a37-433f-b531-9e11cd980a78")
+	)
+	(wire
+		(pts
 			(xy 335.28 62.23) (xy 325.12 62.23)
 		)
 		(stroke
@@ -14685,16 +14516,6 @@
 			(type solid)
 		)
 		(uuid "99165422-449e-480b-ad35-b81a357f4a97")
-	)
-	(wire
-		(pts
-			(xy 379.73 195.58) (xy 379.73 190.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9a271f3d-f025-4241-a8a7-22657311a3bd")
 	)
 	(wire
 		(pts
@@ -14768,13 +14589,13 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 205.74) (xy 379.73 208.28)
+			(xy 369.57 199.39) (xy 369.57 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9df1a20a-ca70-4c3b-857a-4b040ff5b2c9")
+		(uuid "9e2eb4a8-63c3-4bd0-9fba-3fc26f7a2692")
 	)
 	(wire
 		(pts
@@ -15245,6 +15066,16 @@
 			(type default)
 		)
 		(uuid "be62f905-22ba-47f2-bb1c-3e0d8da946fc")
+	)
+	(wire
+		(pts
+			(xy 81.28 128.27) (xy 81.28 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec87cc3-d187-4684-bef7-b5f1a478645a")
 	)
 	(wire
 		(pts
@@ -16038,7 +15869,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 185.42) (xy 321.31 185.42)
+			(xy 326.39 185.42) (xy 323.85 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -16346,16 +16177,6 @@
 		)
 		(uuid "1bf73855-d55c-4ac8-b425-9e313b410f6c")
 	)
-	(label "ENABLE"
-		(at 313.69 185.42 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "2584cb1e-7ad0-4965-96ae-0f891730e4ac")
-	)
 	(label "ID_SCL"
 		(at 87.63 59.69 180)
 		(effects
@@ -16377,7 +16198,7 @@
 		(uuid "29d046c2-f681-4254-89b3-1ec3aa495433")
 	)
 	(label "5V_BUS_USB"
-		(at 81.28 135.89 0)
+		(at 87.63 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17480,8 +17301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 290.576 20.574 0)
+		(property "Value" "5V_BUS_USB"
+			(at 287.782 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17621,7 +17442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 329.438 39.37 0)
 			(effects
 				(font
@@ -17805,8 +17626,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 323.596 20.574 0)
+		(property "Value" "5V_BUS_USB"
+			(at 320.802 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -18411,7 +18232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 329.438 29.21 0)
 			(effects
 				(font
@@ -19028,7 +18849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 329.438 80.01 0)
 			(effects
 				(font
@@ -19123,7 +18944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 387.35 158.242 0)
 			(effects
 				(font
@@ -19776,7 +19597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 296.418 46.99 0)
 			(effects
 				(font
@@ -20741,7 +20562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 337.058 82.55 0)
 			(effects
 				(font
@@ -20837,7 +20658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 387.858 77.47 0)
 			(effects
 				(font
@@ -20997,7 +20818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 312.928 208.28 0)
 			(effects
 				(font
@@ -21084,8 +20905,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 318.516 58.674 0)
+		(property "Value" "5V_BUS_USB"
+			(at 315.976 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -21663,7 +21484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 384.048 210.82 0)
 			(effects
 				(font
@@ -22476,6 +22297,102 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Capacitor:C")
+		(at 81.28 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e634ae5-ffe3-4298-b74b-10035fd41d0b")
+		(property "Reference" "C13"
+			(at 88.646 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 83.82 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 82.2452 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 82.55 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00000"
+			(at 81.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 83.82 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "100%"
+			(at 87.884 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "5f126a28-cbb2-49a6-88d7-622dcf774923")
+		)
+		(pin "1"
+			(uuid "c87b7dde-577b-4e10-8e85-efff92074d91")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:10k_4x0603_Array")
 		(at 161.29 110.49 90)
 		(unit 4)
@@ -22665,16 +22582,15 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 321.31 144.78 90)
+		(at 323.85 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "60e49aa0-86d2-42ef-803c-b6e4a2ae4bbd")
 		(property "Reference" "R13"
-			(at 323.85 143.5099 90)
+			(at 318.77 173.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22683,7 +22599,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 323.85 146.0499 90)
+			(at 318.516 175.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22691,8 +22607,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 325.628 144.78 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 328.168 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22701,7 +22617,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 330.2 144.78 0)
+			(at 332.74 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22710,7 +22626,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 332.74 144.78 0)
+			(at 335.28 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22719,7 +22635,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 327.66 144.78 0)
+			(at 330.2 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22728,7 +22644,7 @@
 			)
 		)
 		(property "Vendor" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 321.31 144.78 0)
+			(at 323.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22737,7 +22653,7 @@
 			)
 		)
 		(property "Custom Feild" ""
-			(at 321.31 144.78 0)
+			(at 323.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23255,8 +23171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 300.736 20.574 0)
+		(property "Value" "5V_BUS_USB"
+			(at 297.942 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -23922,77 +23838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit PowerBoost 1000C Rev B-eagle-import:TERMBLOCK_1X2")
-		(at 394.97 177.8 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85d51635-4d1a-4dd8-9361-00b630cd9843")
-		(property "Reference" "X1"
-			(at 392.43 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TERMBLOCK_1X2"
-			(at 392.43 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
-			(at 394.97 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 394.97 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b88d3998-6c31-44ed-b4b5-ec5b5ce6cd09")
-		)
-		(pin "1"
-			(uuid "161582a7-e8a0-4717-81a8-efa3e05ad6c1")
-		)
-		(instances
-			(project "dreamV1_0"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "5013310607:5013310607")
 		(at 205.74 134.62 0)
 		(unit 1)
@@ -24603,7 +24448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 300.99 190.5 0)
 			(effects
 				(font
@@ -24672,7 +24517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.578 46.99 0)
 			(effects
 				(font
@@ -24766,7 +24611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 361.95 185.42 0)
 			(effects
 				(font
@@ -25334,7 +25179,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit PowerBoost 1000C Rev B-eagle-import:VBAT")
-		(at 321.31 137.16 0)
+		(at 323.85 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25342,7 +25187,7 @@
 		(dnp no)
 		(uuid "a0c0274e-ae16-4874-9998-30cd2a7f229f")
 		(property "Reference" "#U$0105"
-			(at 321.31 137.16 0)
+			(at 323.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25351,7 +25196,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 319.786 136.144 0)
+			(at 322.326 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -25360,7 +25205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 137.16 0)
+			(at 323.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25369,7 +25214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 137.16 0)
+			(at 323.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25378,7 +25223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 321.31 137.16 0)
+			(at 323.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25823,7 +25668,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 367.03 180.34 0)
 			(effects
 				(font
@@ -26381,7 +26226,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "downloaded:RC0603N_YAG-L"
+		(property "Footprint" "Resistor_SMD:RESC1608X55N"
 			(at 88.9 149.86 0)
 			(effects
 				(font
@@ -26723,7 +26568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "downloaded:10132328-10011LF"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
 			(at 55.88 143.51 0)
 			(effects
 				(font
@@ -27730,7 +27575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 361.188 194.31 0)
 			(effects
 				(font
@@ -28005,7 +27850,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_S-PVQFN-N14"
+		(property "Footprint" "TPS61090RSAR:QFN65P400X400X100-17N"
 			(at 339.09 187.96 0)
 			(effects
 				(font
@@ -28014,7 +27859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61090"
 			(at 339.09 187.96 0)
 			(effects
 				(font
@@ -28023,7 +27868,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Boost Converter 2-A"
+			(at 339.09 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/texas-instruments/TPS61090RSAR/566911"
 			(at 339.09 187.96 0)
 			(effects
 				(font
@@ -28194,7 +28048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 361.188 182.88 0)
 			(effects
 				(font
@@ -28331,7 +28185,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit PowerBoost 1000C Rev B-eagle-import:VBAT")
-		(at 379.73 187.96 0)
+		(at 379.73 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28339,7 +28193,7 @@
 		(dnp no)
 		(uuid "e05e575c-2f91-4703-9273-c11e64772cb0")
 		(property "Reference" "#U$0112"
-			(at 379.73 187.96 0)
+			(at 379.73 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28348,7 +28202,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 378.206 186.944 0)
+			(at 378.206 184.404 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -28357,7 +28211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 187.96 0)
+			(at 379.73 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28366,7 +28220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 187.96 0)
+			(at 379.73 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28375,7 +28229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 187.96 0)
+			(at 379.73 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28497,7 +28351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 312.928 187.96 0)
 			(effects
 				(font
@@ -29164,72 +29018,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit PowerBoost 1000C Rev B-eagle-import:GND")
-		(at 387.35 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ecd95934-07f8-490c-85ce-1dff75b7570f")
-		(property "Reference" "#U$0111"
-			(at 387.35 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 385.826 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 387.35 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf5d42e0-0643-46b4-9f0e-f8e0355ee9d1")
-		)
-		(instances
-			(project "dreamV1_0"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#U$0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 120.65 68.58 0)
 		(unit 1)
@@ -29765,7 +29553,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 128.27 90)
+		(at 86.36 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29773,7 +29561,7 @@
 		(dnp no)
 		(uuid "f9479572-1d94-44b4-acb2-37fa069bd40e")
 		(property "Reference" "#PWR0144"
-			(at 86.36 128.27 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29782,7 +29570,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 84.3344 128.1557 0)
+			(at 90.6844 128.1557 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29790,7 +29578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 128.27 0)
+			(at 86.36 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29798,7 +29586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 128.27 0)
+			(at 86.36 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29806,7 +29594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 128.27 0)
+			(at 86.36 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29896,43 +29684,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit PowerBoost 1000C Rev B-eagle-import:-PNP_DRIVER-SC59-BEC")
-		(at 377.19 200.66 0)
+		(lib_id "MMUN2133LT1G:MMUN2133LT1G")
+		(at 377.19 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc3490de-8bc4-44b0-a834-7b2704665f7f")
-		(property "Reference" "T1"
-			(at 379.73 203.2 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MMUN2133LT1G"
-			(at 385.318 200.66 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Transistor_SmallSignal:SOT95P240X111-3N"
-			(at 377.19 200.66 0)
+		(fields_autoplaced yes)
+		(uuid "fde7c67c-0e68-4837-9c95-715bdb488a05")
+		(property "Reference" "Q2"
+			(at 381 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMUN2133LT1G"
+			(at 381 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MMUN2133LT1G:SOT95P240X111-3N"
+			(at 377.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 200.66 0)
+			(at 377.19 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29941,7 +29731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 200.66 0)
+			(at 377.19 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29949,19 +29739,29 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
-			(uuid "b660de57-2580-4b00-9c0b-3eb25f713408")
+		(property "MANUFACTURER" "ON Semiconductor"
+			(at 377.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "E"
-			(uuid "5a38fefc-eadf-4947-9a01-ccea7b654720")
+		(pin "3"
+			(uuid "9b77908a-9e88-4d7a-90bd-1c34bbc2288d")
 		)
-		(pin "B"
-			(uuid "4b4c8468-11e9-4d43-bda3-5ed39252ae90")
+		(pin "2"
+			(uuid "63dfaa69-c573-4ceb-b2e7-67776d16c5ee")
+		)
+		(pin "1"
+			(uuid "c30f34bd-546e-435d-a794-7923bd5530cf")
 		)
 		(instances
-			(project "dreamV1_0"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "T1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
