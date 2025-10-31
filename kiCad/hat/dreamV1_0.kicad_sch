@@ -11832,12 +11832,6 @@
 		(uuid "d0454cdf-7fd8-4360-aa74-0c7975c653e9")
 	)
 	(junction
-		(at 379.73 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d27730aa-46d7-4e72-b659-91d8bfab35c9")
-	)
-	(junction
 		(at 318.77 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12066,16 +12060,6 @@
 			(type solid)
 		)
 		(uuid "001a43a7-fe02-4bc2-ba03-6e9c174c063d")
-	)
-	(wire
-		(pts
-			(xy 402.59 162.56) (xy 405.13 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "002a9c47-c0d1-476e-a828-44650b7c2b76")
 	)
 	(wire
 		(pts
@@ -12547,16 +12531,6 @@
 		)
 		(uuid "21a86bc4-eb50-4cfa-970c-a5e25f8cadef")
 	)
-	(wire
-		(pts
-			(xy 379.73 162.56) (xy 382.27 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "22565a5d-c7df-4c55-8537-d749ed0ffe9b")
-	)
 	(polyline
 		(pts
 			(xy 154.94 87.63) (xy 155.575 87.63)
@@ -12646,16 +12620,6 @@
 			(type default)
 		)
 		(uuid "2a7a37d6-873e-4662-bc70-eb3eed00c0b1")
-	)
-	(wire
-		(pts
-			(xy 379.73 162.56) (xy 379.73 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2bcfb2b3-decd-4cad-a89f-fff102e73792")
 	)
 	(polyline
 		(pts
@@ -12759,7 +12723,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 177.8) (xy 379.73 162.56)
+			(xy 379.73 157.48) (xy 379.73 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -13239,16 +13203,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 162.56) (xy 384.81 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54583627-7760-431f-98ec-f1cedf584d12")
-	)
-	(wire
-		(pts
 			(xy 292.1 49.53) (xy 292.1 52.07)
 		)
 		(stroke
@@ -13636,16 +13590,6 @@
 			(type default)
 		)
 		(uuid "6463c108-0abc-42d5-afb6-2414c9dc29ab")
-	)
-	(wire
-		(pts
-			(xy 389.89 162.56) (xy 392.43 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64e30231-e826-4a17-b3e7-7773995a9690")
 	)
 	(wire
 		(pts
@@ -14397,16 +14341,6 @@
 		)
 		(uuid "946ad510-8fd1-46ef-b0d0-caa56afd6a63")
 	)
-	(wire
-		(pts
-			(xy 392.43 162.56) (xy 394.97 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "95108443-b8e9-43d7-bda4-4c2391db8b06")
-	)
 	(polyline
 		(pts
 			(xy 219.075 40.64) (xy 285.115 40.64)
@@ -14446,16 +14380,6 @@
 			(type default)
 		)
 		(uuid "973a3bcb-a0a1-4217-b019-0116cb9972d5")
-	)
-	(wire
-		(pts
-			(xy 405.13 162.56) (xy 405.13 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "975eab23-b4f5-4a9d-bc39-af6982d75b2f")
 	)
 	(wire
 		(pts
@@ -18445,7 +18369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "5V_BUS_USB"
 			(at 333.756 33.274 0)
 			(effects
 				(font
@@ -18919,101 +18843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 387.35 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20fd430b-94bf-4700-979a-22c42c1039d6")
-		(property "Reference" "R21"
-			(at 387.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 387.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 387.35 158.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 387.35 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 387.35 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "RES-00824"
-			(at 387.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
-			(at 387.35 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Custom Feild" ""
-			(at 387.35 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "779f1aa8-d0c3-472a-a808-da1dc04d5311")
-		)
-		(pin "1"
-			(uuid "cabe2ae1-53e2-499a-8def-a8f6f8734a59")
-		)
-		(instances
-			(project "dreamV1_0"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 171.45 17.78 0)
 		(unit 1)
@@ -19411,72 +19240,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit PowerBoost 1000C Rev B-eagle-import:GND")
-		(at 405.13 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "290cf409-6331-41b3-9a5b-a3bdc2674507")
-		(property "Reference" "#U$0121"
-			(at 405.13 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 403.606 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 405.13 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 405.13 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "486dd807-1da6-4875-a01a-2f9b1cfac20c")
-		)
-		(instances
-			(project "dreamV1_0"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#U$0121")
 					(unit 1)
 				)
 			)
@@ -23997,73 +23760,6 @@
 			(project "dream"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit PowerBoost 1000C Rev B-eagle-import:LED0805_NOOUTLINE")
-		(at 400.05 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ca8dd2f-5109-4ca6-9af8-6886edd33985")
-		(property "Reference" "LED2"
-			(at 398.78 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 398.78 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 400.05 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 400.05 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "52e05b81-cf31-4aa1-8d4a-b47ac1bfddb2")
-		)
-		(pin "C"
-			(uuid "2d380348-fa94-49fb-8f13-d23503f33c6f")
-		)
-		(instances
-			(project "dreamV1_0"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "LED2")
 					(unit 1)
 				)
 			)
