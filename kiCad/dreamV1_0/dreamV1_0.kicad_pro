@@ -525,7 +525,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "exports/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "dreamV1_0.step",
