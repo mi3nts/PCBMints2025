@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.55,
-          "width": 0.6
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -838,7 +838,7 @@
       {
         "filename": "Dream_leov1.kicad_sch",
         "name": "Dream_leov1",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "2e6c5911-b70b-472e-9c41-0189ab22b77d"
       }
     ],
     "used_designators": "",
@@ -847,7 +847,7 @@
   "sheets": [
     [
       "2e6c5911-b70b-472e-9c41-0189ab22b77d",
-      "Root"
+      "Dream_leov1"
     ]
   ],
   "text_variables": {},
