@@ -13094,7 +13094,7 @@
 		)
 		(uuid "1b42529f-d89a-4bae-a970-11f57bd367b4")
 	)
-	(label "GPIO6{slash}SCL5"
+	(label "GPIO24{slash}SCL4"
 		(at 101.6 81.28 0)
 		(effects
 			(font
@@ -13544,7 +13544,7 @@
 		)
 		(uuid "b298c88f-1de6-4c12-b266-12a042e971fe")
 	)
-	(label "GPIO5{slash}SDA5"
+	(label "GPIO23{slash}SDA4"
 		(at 101.6 67.31 0)
 		(effects
 			(font
