@@ -8918,7 +8918,7 @@
 	)
 	(text "IPS7100 I2C QWIIC"
 		(exclude_from_sim no)
-		(at 178.562 44.704 0)
+		(at 178.562 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9213,6 +9213,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bf36272-5263-4714-bca4-eb97a41200e3")
+	)
+	(junction
+		(at 199.39 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cbed6b2-e2e5-4fb2-b38b-99ea1373bdb8")
 	)
 	(junction
 		(at 60.96 173.99)
@@ -9826,6 +9832,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 57.15) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108f9e8d-77b0-4a81-b7d6-912b475d5c1e")
+	)
+	(wire
+		(pts
 			(xy 124.46 27.94) (xy 135.89 27.94)
 		)
 		(stroke
@@ -10226,7 +10242,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 55.88) (xy 199.39 59.69)
+			(xy 199.39 55.88) (xy 199.39 57.15)
 		)
 		(stroke
 			(width 0)
@@ -11653,6 +11669,16 @@
 			(type default)
 		)
 		(uuid "96b980fb-2772-4ee5-8bd8-afe5db3939ec")
+	)
+	(wire
+		(pts
+			(xy 199.39 57.15) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985d1dfb-39ce-4fa9-89cf-3cb38212a6f8")
 	)
 	(wire
 		(pts
@@ -14863,6 +14889,131 @@
 			(project "Dream_leov1"
 				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
+		(at 191.77 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19be27d8-00af-425f-8b47-e3a5fb4e444f")
+		(property "Reference" "C8"
+			(at 193.04 52.832 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 194.818 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 203.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 205.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-00810"
+			(at 208.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 193.802 49.022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 194.056 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/kemet/C0603C104M3VACTU/411100"
+			(at 191.77 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f46cb7c-4717-4823-ae04-ea9355a3dba7")
+		)
+		(pin "2"
+			(uuid "5004cb99-545b-4456-b728-c2cbec78347f")
+		)
+		(instances
+			(project "Dream_leov1"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -20299,6 +20450,83 @@
 			(project "Dream_leov1"
 				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e0a8d7d-82ad-4f07-97b8-3b26674fe98b")
+		(property "Reference" "#PWR077"
+			(at 182.88 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be214082-ea0b-47c7-875c-c1b54d4f6591")
+		)
+		(instances
+			(project "Dream_leov1"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -26383,7 +26611,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fef807af-6ec6-4e31-b78f-19a48bf4ec15")
 		(property "Reference" "#PWR020"
 			(at 199.39 93.98 0)
@@ -26397,7 +26624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 92.71 0)
+			(at 199.39 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
