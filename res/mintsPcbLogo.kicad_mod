@@ -1,0 +1,75 @@
+(footprint "LOGO" (version 20221018) (generator "bitmap2component") (generator_version "10.0")
+  (layer "F.Cu")
+  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "G***" (at 0 0) (layer "F.SilkS")
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    (uuid bd652b65-8676-4f92-b1b4-e2cebcf57470)
+  )
+  (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    (uuid 80169d2f-d47c-43c5-a4c5-7f049adc4bd3)
+  )
+  (fp_poly
+    (pts
+      (xy -154.904226 68.508451)
+      (xy -155.083099 68.687324)
+      (xy -155.261972 68.508451)
+      (xy -155.083099 68.329577)
+    )
+
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid e91739cc-1a12-42af-baa8-628e7a7853a5))
+  (fp_poly
+    (pts
+      (xy -49.369014 19.139437)
+      (xy -49.547888 19.31831)
+      (xy -49.726761 19.139437)
+      (xy -49.547888 18.960563)
+    )
+
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid f7b5d0ef-bd2f-4dde-9afb-456244bc9338))
+  (fp_poly
+    (pts
+      (xy -1.430986 -16.635211)
+      (xy -1.609859 -16.456338)
+      (xy -1.788733 -16.635211)
+      (xy -1.609859 -16.814085)
+    )
+
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid a1e3a11e-6986-4f72-92db-36ff0f221e1d))
+  (fp_poly
+    (pts
+      (xy 58.670422 -57.41831)
+      (xy 58.491549 -57.239437)
+      (xy 58.312676 -57.41831)
+      (xy 58.491549 -57.597183)
+    )
+
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid feb03cb5-11a1-4b4e-ba31-d8f606bece83))
+  (fp_poly
+    (pts
+      (xy 178.515493 -72.801409)
+      (xy 178.336619 -72.622535)
+      (xy 178.157746 -72.801409)
+      (xy 178.336619 -72.980282)
+    )
+
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid d59252bf-191f-44e2-b39d-24880c19247a))
+  (fp_poly
+    (pts
+      (xy 132.00845 -95.697183)
+      (xy 131.829577 -95.51831)
+      (xy 131.650704 -95.697183)
+      (xy 131.829577 -95.876056)
+    )
+
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid 48145839-8798-41fe-a455-4c675cd4d48e))
+  (fp_poly
+    (pts
+      (xy -113.405634 -143.992958)
+      (xy -113.584507 -143.814085)
+      (xy -113.763381 -143.992958)
+      (xy -113.584507 -144.171831)
+    )
+
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid 3b656636-74eb-4c80-aa04-f95a77d0e736))
+)
