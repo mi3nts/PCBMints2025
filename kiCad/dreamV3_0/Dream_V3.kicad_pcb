@@ -3864,7 +3864,7 @@
 			(uuid "1331ca89-28c3-4afe-b1a1-30e96629915e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.step"
 			(offset
 				(xyz 0.01500000025 -0.03500000059 0)
 			)
@@ -9890,7 +9890,7 @@
 			(uuid "cf812f3c-b8cc-4484-882e-93104270ed06")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.step"
 			(offset
 				(xyz 0.01500000025 -0.03500000059 0)
 			)
@@ -18081,14 +18081,6 @@
 		(uuid "052b09fa-de14-439e-85e3-a83513922f42")
 	)
 	(segment
-		(start 114.05 47.97)
-		(end 113.58 47.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "07bb60bd-1095-44f1-a3aa-90b3a7455c65")
-	)
-	(segment
 		(start 98.975 94.475)
 		(end 98.975 94.975)
 		(width 0.2)
@@ -21586,8 +21578,8 @@
 	)
 	(via
 		(at 93.869707 68.846765)
-		(size 0.508)
-		(drill 0.3048)
+		(size 0.458)
+		(drill 0.2548)
 		(layers "F.Cu" "B.Cu")
 		(net "/5V_BUS_USB")
 		(uuid "708d96ba-36ab-45e0-bf5d-4f26535d307e")
@@ -21599,6 +21591,14 @@
 		(layer "B.Cu")
 		(net "/5V_BUS_USB")
 		(uuid "188bd54b-d0c9-4aa4-926d-b36e3973927c")
+	)
+	(segment
+		(start 93.4435 68.0825)
+		(end 93.4435 69.272972)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/5V_BUS_USB")
+		(uuid "5ee4bdeb-7f23-4075-8ca0-d891860f3d78")
 	)
 	(segment
 		(start 90.9435 68.863511)
@@ -21617,28 +21617,12 @@
 		(uuid "87389ea0-c49f-4f52-a653-34edd2c9795a")
 	)
 	(segment
-		(start 93.4435 68.0825)
-		(end 93.4435 68.420558)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/5V_BUS_USB")
-		(uuid "94819e57-a80c-4117-b8c1-e804c0154ba8")
-	)
-	(segment
 		(start 93.4435 69.272972)
 		(end 93.869707 68.846765)
 		(width 0.254)
 		(layer "B.Cu")
 		(net "/5V_BUS_USB")
 		(uuid "c13d35b8-b9d6-4807-8261-4f4e0be6ef81")
-	)
-	(segment
-		(start 93.4435 68.420558)
-		(end 93.869707 68.846765)
-		(width 0.254)
-		(layer "B.Cu")
-		(net "/5V_BUS_USB")
-		(uuid "e3bd85fa-976d-4c66-a378-0c40a43f1849")
 	)
 	(segment
 		(start 103.5 53)
