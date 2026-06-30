@@ -6360,7 +6360,7 @@
 				)
 			)
 		)
-		(property "Value" "NK236"
+		(property "Value" "OS102011MA1QN1"
 			(at 1.7 7.7 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6372,7 +6372,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "NK236"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Description" "Pushbutton Switches OFF-(ON) .201 RD CAP RIGHT ANGL PC .4VA Process Sealed Subminiature Pushbuttons"
+		(property "Description" "Slide Switch SPDT Through Hole, Right Angle"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6398,12 +6398,12 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/500ASSP1M6QE/E-Switch/view-part/?ref=snap"
-			(at 0 0 180)
+		(property "Manufacturer" "C&K"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03c635b5-06a8-4371-9748-10215ff25fbb")
+			(uuid "7cb762a8-b494-4a17-abad-665e029d5148")
 			(effects
 				(font
 					(size 1 1)
@@ -6411,12 +6411,12 @@
 				)
 			)
 		)
-		(property "MP" "500ASSP1M6QE"
-			(at 0 0 180)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/c-k/OS102011MA1QN1/1981430"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d97995a0-e7de-4ada-a0b6-b9edda7bc973")
+			(uuid "0f8afb50-0128-4273-a84b-48309fb7bfb3")
 			(effects
 				(font
 					(size 1 1)
@@ -6424,220 +6424,12 @@
 				)
 			)
 		)
-		(property "Description_1" "Slide Switch, 500A Series, SPDT, ON-ON, 3A, 120VAC/28VDC, Silver, R/A, PC Pin | E-Switch 500ASSP1M6QE"
-			(at 0 0 180)
+		(property "Product Number" "OS102011MA1QN1"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c267d95a-5a6b-451c-9c72-c39d26c9df09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "E-Switch"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12b5126a-2156-4bc1-8eb1-2fdb6e908b68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "761d8aa1-cb07-4343-b414-ffe260d06592")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SNAPEDA_PN" "500ASSP1M6QE"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c63d977d-ef24-4c87-b332-d76abd6f62cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" "6.18"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d063300c-390b-4092-94db-9ed58084f826")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "633-AB11AH-FC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d565fbd1-44ce-4577-a973-b1877c6b4065")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/AB11AH-FC?qs=E3XkhTW0K2FjNZbXLHs%252BZw%3D%3D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60aa644c-0825-4902-b4b3-6a23c466b810")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "NKK Switches"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1771c027-2f79-4611-9a7c-5e33c66e3434")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AB11AH-FC"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8dd5c83c-5a83-4d8c-8795-e672ed77ade2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Vendor" "https://www.digikey.com/en/products/detail/nkk-switches/AB11AH-FC/1055910?s=N4IgTCBcDaIIICECMS4AkC0AxAwiAugL5A"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e805ffc-6330-4671-a643-93806edf546a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e551b04-c19c-4f75-8de9-5e862370de8e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8ed8ab5-2cc0-4492-8869-4fb88d46f40a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a38d59ac-1f94-4fea-b98d-567e04258e61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aaf35dda-99d5-413d-8492-1737568df000")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/500ASSP1M6QE/E-Switch/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28419f8c-1211-4f33-b862-66de72d6e892")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e183e35-b591-4650-aca2-fe690af5f77a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "C"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a8e70557-d601-4bc4-903c-1c171f8f6cb5")
+			(uuid "51bf6481-87c9-4311-af8a-f838f62086ed")
 			(effects
 				(font
 					(size 1 1)
@@ -17489,6 +17281,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "OFF"
+		(at 106.5 22.5 0)
+		(layer "F.SilkS")
+		(uuid "cef54fa2-dcd1-4339-bd52-81b1edb9a3d3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "I2C 4"
 		(at 122.5 31 0)
 		(layer "F.SilkS")
@@ -17506,6 +17311,19 @@
 		(at 122.5 37 0)
 		(layer "F.SilkS")
 		(uuid "e7781654-e873-4e58-8a2e-1bd247ff9cb0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ON"
+		(at 123 22.5 0)
+		(layer "F.SilkS")
+		(uuid "fce5bf5d-3418-4d53-9663-f62b7a79ebf3")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -17554,7 +17372,7 @@
 		)
 	)
 	(gr_text "- - -"
-		(at 94.5 41.5 90)
+		(at 94.5 42 90)
 		(layer "F.SilkS")
 		(uuid "b8f694bc-2329-4c15-b1b0-d1d68a1364d9")
 		(effects
