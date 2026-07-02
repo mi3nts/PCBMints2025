@@ -99,7 +99,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -127,9 +127,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "exports/")
 		)
 	)
 	(footprint "SparkFun-Capacitor:C_0603_1608Metric"
@@ -17510,28 +17510,6 @@
 		)
 	)
 	(gr_circle
-		(center 39 59)
-		(end 42 59)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "11774321-eef8-422f-b918-9ea87dee5093")
-	)
-	(gr_circle
-		(center 39.042 59.094)
-		(end 40.642 59.094)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "2329fc14-bd77-49b6-8ee1-d3a2b626dbf3")
-	)
-	(gr_circle
 		(center 60.68 71.48)
 		(end 82.18 71.48)
 		(stroke
@@ -21001,6 +20979,14 @@
 		(uuid "0c429369-781e-4671-bf06-ee795e148d3a")
 	)
 	(segment
+		(start 107.25666 85.6)
+		(end 107.5 85.35666)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "1ada78ce-97b3-4aa4-8af7-fea331748497")
+	)
+	(segment
 		(start 77 85.5)
 		(end 77 86)
 		(width 0.2)
@@ -21055,14 +21041,6 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "38ec96fd-2950-47ab-8e66-1e448cfdbd80")
-	)
-	(segment
-		(start 107.25666 85.6)
-		(end 107.5 85.84334)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "3d4bc869-01e4-4f23-b9ab-319ecd21db6f")
 	)
 	(segment
 		(start 97.5 67.5)
@@ -21127,14 +21105,6 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "56e94c9f-ddb3-4f81-b873-71283c6f53cb")
-	)
-	(segment
-		(start 106.6 85.6)
-		(end 107.25666 85.6)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "57bf20c8-7615-433d-acf1-1530271d0100")
 	)
 	(segment
 		(start 82.5 80)
@@ -21287,6 +21257,22 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "d3a2d560-523d-4423-8452-f7bc2929d0c4")
+	)
+	(segment
+		(start 107.5 85.35666)
+		(end 107.5 85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "d64b37e2-9117-48e3-8598-75937e579de8")
+	)
+	(segment
+		(start 106.6 85.6)
+		(end 107.25666 85.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "d7627caa-7c49-4b04-a602-5e8f5e886e13")
 	)
 	(segment
 		(start 104 61)
