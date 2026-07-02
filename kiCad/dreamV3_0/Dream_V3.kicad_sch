@@ -8829,9 +8829,9 @@
 		)
 		(uuid "a7a8fc96-8db9-4ea3-873f-99e44faa19e6")
 	)
-	(text "TGS2611 METHANE SENSOR"
+	(text "TGS2611 METHANE SENSOR SOCKET"
 		(exclude_from_sim no)
-		(at 190.5 122.174 0)
+		(at 194.564 122.174 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13330,7 +13330,7 @@
 		)
 		(uuid "c50416e6-8e0f-4a66-85f6-98b9fa980ec4")
 	)
-	(label "GPIO23{slash}SDA4"
+	(label "GPIO2{slash}SDA1"
 		(at 15.24 119.38 0)
 		(effects
 			(font
@@ -13490,7 +13490,7 @@
 		)
 		(uuid "f15c123f-23d6-4451-a674-1f409d7c13f9")
 	)
-	(label "GPIO24{slash}SCL4"
+	(label "GPIO3{slash}SCL1"
 		(at 30.48 119.38 0)
 		(effects
 			(font
@@ -14974,7 +14974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SOT-363"
 			(at 151.13 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16262,7 +16262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-363"
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SOT-363"
 			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -24805,7 +24805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TGS2611_clean:TGS2611C00"
+		(property "Footprint" "tgs2611:tgs2611c00"
 			(at 256.54 207.95 0)
 			(hide yes)
 			(show_name no)
@@ -24817,7 +24817,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.figarosensor.com/products/docs/TGS%202611C00%281013%29.pdf"
+		(property "Datasheet" "https://www.figarosensor.com/product/sr-6_product%20information%28fusa%29_rev03.pdf"
 			(at 256.54 307.95 0)
 			(hide yes)
 			(show_name no)
@@ -24864,7 +24864,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TGS2611-C00"
+		(property "Manufacturer_Part_Number" "SR-6 Sensor Socket"
 			(at 256.54 707.95 0)
 			(hide yes)
 			(show_name no)
@@ -24876,55 +24876,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 256.54 807.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 256.54 907.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 256.54 1007.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 256.54 1107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Custom Feild" ""
+		(property "Vendor" "https://www.figarosensor.com/product/entry/sr6.html"
 			(at 191.77 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -25646,7 +25598,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k"
 			(at 256.54 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25667,7 +25619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
 			(at 256.54 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -25700,7 +25652,7 @@
 				)
 			)
 		)
-		(property "Vendor" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW060310K0FKEA/1174782"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/vishay-dale/RCS06032K00FKEA/5866936"
 			(at 256.54 100.33 0)
 			(hide yes)
 			(show_name no)
