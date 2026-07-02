@@ -8767,9 +8767,9 @@
 		)
 		(uuid "650f16d7-479e-4a6c-b69f-89dd899e8647")
 	)
-	(text "Power Safety"
+	(text "Regulator - Power Safety"
 		(exclude_from_sim no)
-		(at 233.934 165.1 0)
+		(at 240.284 164.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9051,12 +9051,6 @@
 		(uuid "249abfda-a694-40e4-b6fe-f73bae5614da")
 	)
 	(junction
-		(at 231.14 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27b3a51f-37a5-4f31-bb01-52972660ecd2")
-	)
-	(junction
 		(at 31.75 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9189,16 +9183,22 @@
 		(uuid "a4212b69-6439-47ba-b128-5a22357ecb53")
 	)
 	(junction
-		(at 157.48 27.94)
+		(at 231.14 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a882c3c0-cdd6-489c-af80-69050ae8602e")
+		(uuid "a50afbbd-a49b-40cf-8053-6d8bfd4cdbf1")
 	)
 	(junction
 		(at 231.14 151.765)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b03b6e7d-4948-4969-8eef-e14de4084578")
+		(uuid "a7d579d3-5ea8-41f1-ad5b-83e61501ba79")
+	)
+	(junction
+		(at 157.48 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a882c3c0-cdd6-489c-af80-69050ae8602e")
 	)
 	(junction
 		(at 31.75 67.31)
@@ -11232,7 +11232,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 151.765) (xy 231.14 144.78)
+			(xy 231.14 151.765) (xy 231.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11309,6 +11309,16 @@
 			(type dot)
 		)
 		(uuid "91441855-d904-470a-b3b3-611e27015db5")
+	)
+	(wire
+		(pts
+			(xy 231.14 142.24) (xy 231.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a8fef5-daa2-4bb7-acd7-b85178e88ece")
 	)
 	(wire
 		(pts
@@ -13852,7 +13862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf"
 			(at -72.39 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13864,6 +13874,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/samtec-inc/SSW-120-02-G-D/1112335"
 			(at 50.8 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -14797,6 +14818,17 @@
 				)
 			)
 		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+			(at 30.48 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87459751-25a0-4c19-89db-2771c7f0b107")
 		)
@@ -14840,10 +14872,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b0332a8-fe0a-436f-9af3-724c6d9489c6")
 		(property "Reference" "R2"
-			(at 81.28 114.2999 90)
+			(at 81.28 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14899,6 +14930,17 @@
 		)
 		(property "PROD_ID" "RES-22662"
 			(at 72.39 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+			(at 78.74 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15317,7 +15359,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 115.57 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -15800,6 +15842,17 @@
 				)
 			)
 		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306"
+			(at 160.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f068d8f-2d8c-4e8b-b092-584fe4c90cd8")
 		)
@@ -16185,7 +16238,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 152.4 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -18184,6 +18237,17 @@
 				)
 			)
 		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306"
+			(at 115.57 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6587911f-be22-44d1-b114-baadda178363")
 		)
@@ -18639,7 +18703,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Capacitor:10uF_0805_25V_10%")
-		(at 231.14 142.24 0)
+		(at 231.14 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18649,17 +18713,6 @@
 		(dnp no)
 		(uuid "62aa2bf7-a4ee-4e95-8db3-4d7afbbb6864")
 		(property "Reference" "C2"
-			(at 233.68 138.4362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
 			(at 233.68 140.9762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18670,51 +18723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0805_2012Metric"
-			(at 231.14 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4888/TMK212BBJ106KG-T_SS.pdf"
-			(at 231.14 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 231.14 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "CAP-14259"
-			(at 229.87 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
+		(property "Value" "10uF"
 			(at 233.68 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18725,7 +18734,51 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Footprint" "SparkFun-Capacitor:C_0805_2012Metric"
+			(at 231.14 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4888/TMK212BBJ106KG-T_SS.pdf"
+			(at 231.14 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-14259"
+			(at 229.87 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 233.68 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18736,8 +18789,19 @@
 				(justify left)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
-			(at 231.14 142.24 0)
+		(property "Tolerance" "10%"
+			(at 233.68 148.5962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
+			(at 231.14 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18840,7 +18904,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 157.48 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -20334,7 +20398,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 152.4 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -20833,7 +20897,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 124.46 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -21021,6 +21085,17 @@
 		)
 		(property "PROD_ID" "RES-22662"
 			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+			(at 92.71 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22432,6 +22507,17 @@
 				)
 			)
 		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+			(at 15.24 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87459751-25a0-4c19-89db-2771c7f0b109")
 		)
@@ -23627,7 +23713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca8b1954-5416-4cbd-9f36-b1856a9d69c6")
-		(property "Reference" "R4"
+		(property "Reference" "0.1"
 			(at 177.546 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23701,7 +23787,7 @@
 		(instances
 			(project "Dream_V3"
 				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
-					(reference "R4")
+					(reference "0.1")
 					(unit 1)
 				)
 			)
@@ -23873,7 +23959,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 115.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -24238,6 +24324,17 @@
 			)
 		)
 		(property "Description" "Zero-Drift, HighAccuracy, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8"
+			(at 199.39 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDCNT/2426056"
 			(at 199.39 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -25342,7 +25439,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAUwEZlgNIFoDMA6bIAugL5A"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAUwEZlgNIFoDMA6bIAugL5A"
 			(at 252.73 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -25756,7 +25853,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -26028,7 +26125,7 @@
 				)
 			)
 		)
-		(property "Custom Feild" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
+		(property "Vendor" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-1002F4LF/3593233?s=N4IgjCBcodIMZQGYEMA2BnApgGhAeygG0QB2AZgBYAGckAXTwAcAXKEAZRYCcBLAOwDmIAL546cRJFSZcBYuDDkIjEK3Zc%2BQ0XjAA2KKCkzseQpBIAOcqQBMthszaROPAcLEhbyyoYTJ0U3kLL1p9Ukc1Z1ctDzwAWlgjANkzBTAwSwZPeIdJKB4AVzlzEgBWEDwATmyEiWTIIpL06lqQeIN8xu5itJC6PF88B3oc3y6TZpD7UlpK8EsyvRURVaA"
 			(at 124.46 62.23 0)
 			(hide yes)
 			(show_name no)
