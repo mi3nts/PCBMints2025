@@ -8689,7 +8689,7 @@
 		)
 		(uuid "13d2035f-2ee2-4ae2-b704-09d06f4de1ab")
 	)
-	(text "Raspberry Pi Zero "
+	(text "Orange Pi Zero "
 		(exclude_from_sim no)
 		(at 76.962 196.342 0)
 		(effects
@@ -9083,6 +9083,12 @@
 		(uuid "47466c77-947d-408c-b0ec-bff4a475ca97")
 	)
 	(junction
+		(at 40.64 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4970ddbe-b850-40c5-93b0-8a64b8b55db6")
+	)
+	(junction
 		(at 31.75 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9153,12 +9159,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b0e96fd-540d-4a7d-8eea-41c3972155b4")
-	)
-	(junction
-		(at 40.64 138.43)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "9d0d5fb0-649d-4466-949c-56575436b4e5")
 	)
 	(junction
 		(at 162.56 193.04)
