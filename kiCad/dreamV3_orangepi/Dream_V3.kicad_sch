@@ -8756,7 +8756,7 @@
 	)
 	(text "ON/OFF Power"
 		(exclude_from_sim no)
-		(at 116.84 127.254 0)
+		(at 107.95 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9004,7 +9004,7 @@
 		(uuid "17365ad7-0003-4c56-aa7e-333bd7afcc6e")
 	)
 	(junction
-		(at 248.285 100.33)
+		(at 236.855 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bf36272-5263-4714-bca4-eb97a41200e3")
@@ -9020,6 +9020,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "23136753-86ce-49ee-a7b9-be17aa13f159")
+	)
+	(junction
+		(at 105.41 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24944e28-3fcb-493e-8889-903260e7bfd9")
 	)
 	(junction
 		(at 157.48 67.31)
@@ -9160,7 +9166,7 @@
 		(uuid "a2eed487-556a-4213-937e-3cd4583eb149")
 	)
 	(junction
-		(at 264.16 100.33)
+		(at 252.73 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4212b69-6439-47ba-b128-5a22357ecb53")
@@ -9241,10 +9247,10 @@
 		(at 115.57 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e83ec361-a0e9-4d97-89b6-50d0a514eb62")
+		(uuid "df62f884-bf9c-44ad-93f7-b24eecd8670b")
 	)
 	(junction
-		(at 190.5 113.03)
+		(at 179.07 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa3f6bac-b93c-4843-9da9-82759aa6ef88")
@@ -9304,6 +9310,10 @@
 		(uuid "5feeb398-cb8d-4f5f-bff9-c3c697313192")
 	)
 	(no_connect
+		(at 124.46 110.49)
+		(uuid "6297926e-3fb1-41de-9636-c08f561a723f")
+	)
+	(no_connect
 		(at 85.09 176.53)
 		(uuid "63a99f0b-57f0-425b-bfbb-3b8af364d820")
 	)
@@ -9322,10 +9332,6 @@
 	(no_connect
 		(at 77.47 26.67)
 		(uuid "6ae49bae-45f5-4132-8804-ca4f65018cf5")
-	)
-	(no_connect
-		(at 132.08 120.65)
-		(uuid "721632ab-5fe4-4d68-aa3c-2119c6efb8f7")
 	)
 	(no_connect
 		(at 16.51 146.05)
@@ -9456,6 +9462,16 @@
 			(type default)
 		)
 		(uuid "051b5113-131c-489d-a462-63758aa272d2")
+	)
+	(wire
+		(pts
+			(xy 109.22 113.03) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c9f9ae-cf67-44d9-b387-3e4fed9082b9")
 	)
 	(wire
 		(pts
@@ -9659,16 +9675,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 114.3 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1320b2e4-5f13-4585-9f9b-4694d960b4e4")
-	)
-	(wire
-		(pts
 			(xy 115.57 41.91) (xy 120.65 41.91)
 		)
 		(stroke
@@ -9749,7 +9755,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 100.33) (xy 248.285 100.33)
+			(xy 232.41 100.33) (xy 236.855 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9909,7 +9915,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 113.03) (xy 260.35 104.775)
+			(xy 248.92 113.03) (xy 248.92 104.775)
 		)
 		(stroke
 			(width 0)
@@ -10016,6 +10022,16 @@
 			(type default)
 		)
 		(uuid "2901736d-aebf-4ae4-9ad4-5566e90e754f")
+	)
+	(wire
+		(pts
+			(xy 133.35 115.57) (xy 133.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a01a46b-be91-4074-aabf-d957dc2c07f7")
 	)
 	(wire
 		(pts
@@ -10229,7 +10245,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 190.5 113.03)
+			(xy 179.07 104.14) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10709,13 +10725,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 113.03) (xy 114.3 113.03)
+			(xy 124.46 115.57) (xy 128.27 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58cd7285-beb2-4d48-8d56-0e0b2b0c432a")
+		(uuid "5937da66-71ef-4a59-a078-6a6b9b8a5bb7")
 	)
 	(wire
 		(pts
@@ -10776,6 +10792,16 @@
 			(type default)
 		)
 		(uuid "5c2018f3-3184-4e84-aed7-798418752426")
+	)
+	(wire
+		(pts
+			(xy 105.41 101.6) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa705c5-1999-4c26-9378-feaedde23856")
 	)
 	(wire
 		(pts
@@ -10969,16 +10995,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 114.3 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e113146-78cf-422f-9feb-99b18e61027d")
-	)
-	(wire
-		(pts
 			(xy 162.56 109.22) (xy 175.26 109.22)
 		)
 		(stroke
@@ -11129,6 +11145,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 101.6) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be2c9c9-eb4c-4d48-a54e-cc52f063d1bc")
+	)
+	(wire
+		(pts
 			(xy 199.39 85.09) (xy 199.39 86.36)
 		)
 		(stroke
@@ -11199,7 +11225,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 115.57) (xy 190.5 115.57)
+			(xy 180.34 115.57) (xy 179.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11296,16 +11322,6 @@
 			(type solid)
 		)
 		(uuid "8db7529f-43cd-48a3-921a-f06a519250f2")
-	)
-	(wire
-		(pts
-			(xy 132.08 100.33) (xy 132.08 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5507c3-9cd8-4764-9752-76445db14a2f")
 	)
 	(polyline
 		(pts
@@ -11419,6 +11435,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 115.57) (xy 128.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957dfc33-6b6a-4182-a0ea-c4057e66df83")
+	)
+	(wire
+		(pts
 			(xy 31.75 59.69) (xy 31.75 62.23)
 		)
 		(stroke
@@ -11529,7 +11555,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 115.57) (xy 190.5 113.03)
+			(xy 179.07 115.57) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -11669,7 +11695,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 115.57) (xy 264.16 115.57)
+			(xy 248.92 115.57) (xy 252.73 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11789,7 +11815,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 104.775) (xy 248.285 104.775)
+			(xy 248.92 104.775) (xy 236.855 104.775)
 		)
 		(stroke
 			(width 0)
@@ -11839,7 +11865,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.285 100.33) (xy 254 100.33)
+			(xy 236.855 100.33) (xy 242.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12139,6 +12165,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde2720c-0692-4852-9920-8561a1367e90")
+	)
+	(wire
+		(pts
 			(xy 58.42 186.69) (xy 85.09 186.69)
 		)
 		(stroke
@@ -12179,7 +12215,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.285 100.33) (xy 248.285 104.775)
+			(xy 236.855 100.33) (xy 236.855 104.775)
 		)
 		(stroke
 			(width 0)
@@ -12237,6 +12273,16 @@
 		)
 		(uuid "d66eb3b8-44bc-4c04-983f-641fbfb27a94")
 	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a31c91-822f-431d-99ed-9591a6daf8b2")
+	)
 	(polyline
 		(pts
 			(xy 11.9945 128.27) (xy 176.9698 128.2815)
@@ -12259,7 +12305,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 115.57) (xy 264.16 100.33)
+			(xy 252.73 115.57) (xy 252.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12276,6 +12322,16 @@
 			(type default)
 		)
 		(uuid "d9ba0560-85a3-4ded-9871-4cee635a4e69")
+	)
+	(polyline
+		(pts
+			(xy 255.27 92.71) (xy 255.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "da9c9d22-a377-42d5-a3d8-33064cae0615")
 	)
 	(wire
 		(pts
@@ -12459,16 +12515,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7609def-492a-4994-aeba-366099ca5842")
-	)
-	(wire
-		(pts
 			(xy 130.81 81.28) (xy 152.4 81.28)
 		)
 		(stroke
@@ -12609,7 +12655,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 100.33) (xy 264.16 100.33)
+			(xy 247.65 100.33) (xy 252.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12639,16 +12685,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 123.19 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35c5e0b-29fb-4d5c-8340-3fb930cf9b55")
-	)
-	(wire
-		(pts
 			(xy 16.51 176.53) (xy 45.72 176.53)
 		)
 		(stroke
@@ -12659,7 +12695,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 113.03) (xy 191.77 113.03)
+			(xy 179.07 113.03) (xy 180.34 113.03)
 		)
 		(stroke
 			(width 0)
@@ -12817,6 +12853,16 @@
 		)
 		(uuid "028ee1f8-b804-466e-a3b7-c4e056b9fec1")
 	)
+	(label "5V_BUS_USB"
+		(at 105.41 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07734e54-8392-4234-bea3-5fb4600f53f2")
+	)
 	(label "PI7{slash}TWI1_SCL"
 		(at 256.54 26.67 90)
 		(effects
@@ -12838,7 +12884,7 @@
 		(uuid "0d586883-06a4-41f6-bda6-5ff40ac335ff")
 	)
 	(label "INA+"
-		(at 243.84 100.33 180)
+		(at 232.41 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13297,6 +13343,16 @@
 		)
 		(uuid "a60299b5-b50e-4b69-be20-8bbb01f20ca4")
 	)
+	(label "switchGate"
+		(at 124.46 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7a13d3d-9897-4166-8b3c-1da1a6e78f28")
+	)
 	(label "PH2{slash}UART5_TX"
 		(at 16.51 151.13 0)
 		(effects
@@ -13386,16 +13442,6 @@
 			(justify left top)
 		)
 		(uuid "c1d3f178-e100-4b46-9e14-f108cc043a11")
-	)
-	(label "5V_BUS_USB"
-		(at 123.19 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right top)
-		)
-		(uuid "c4fd18a3-1524-46c3-ad74-057644dfc6c6")
 	)
 	(label "PI0{slash}TWI3_SDA"
 		(at 16.51 173.99 0)
@@ -18770,7 +18816,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 104.14 0)
+		(at 179.07 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18780,7 +18826,7 @@
 		(dnp no)
 		(uuid "624e14f0-6d3a-416c-ac77-9ba08398d536")
 		(property "Reference" "#PWR035"
-			(at 190.5 107.95 0)
+			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18791,7 +18837,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.8683 99.8156 0)
+			(at 179.4383 99.8156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18801,7 +18847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 104.14 0)
+			(at 179.07 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18811,7 +18857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 104.14 0)
+			(at 179.07 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18821,7 +18867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 104.14 0)
+			(at 179.07 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19180,7 +19226,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 100.33 180)
+		(at 252.73 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19190,7 +19236,7 @@
 		(dnp no)
 		(uuid "6653e5e4-07f8-4ca6-9cde-c68fffd2d88c")
 		(property "Reference" "#PWR036"
-			(at 264.16 93.98 0)
+			(at 252.73 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19201,7 +19247,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.0457 96.0056 0)
+			(at 252.6157 96.0056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19211,7 +19257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 100.33 0)
+			(at 252.73 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19221,7 +19267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 100.33 0)
+			(at 252.73 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19231,7 +19277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 100.33 0)
+			(at 252.73 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21159,81 +21205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 134.62 100.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c70d345-18da-4292-903b-71ff59a1096e")
-		(property "Reference" "#PWR058"
-			(at 130.81 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 137.16 98.298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 134.62 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60567cf0-757a-41a2-a714-883332d28a77")
-		)
-		(instances
-			(project "Dream_V3"
-				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Resistor:10k_4x0603_Array")
 		(at 92.71 115.57 90)
 		(unit 4)
@@ -21697,7 +21668,7 @@
 	)
 	(symbol
 		(lib_id "500ASSP1M6QE:500ASSP1M6QE")
-		(at 124.46 118.11 0)
+		(at 116.84 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21707,7 +21678,7 @@
 		(dnp no)
 		(uuid "a69dcc4a-0867-4d62-98b3-ac642dce8f7f")
 		(property "Reference" "S1"
-			(at 128.27 114.3 0)
+			(at 120.65 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21717,7 +21688,7 @@
 			)
 		)
 		(property "Value" "NK236"
-			(at 135.89 114.3 0)
+			(at 128.27 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21728,7 +21699,7 @@
 			)
 		)
 		(property "Footprint" "500ASSP1M6QE:SW_500ASSP1M6QE"
-			(at 124.46 118.11 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21740,7 +21711,7 @@
 			)
 		)
 		(property "Datasheet" "NK236"
-			(at 124.46 118.11 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21751,7 +21722,7 @@
 			)
 		)
 		(property "Description" "Pushbutton Switches OFF-(ON) .201 RD CAP RIGHT ANGL PC .4VA Process Sealed Subminiature Pushbuttons"
-			(at 124.46 118.11 0)
+			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21759,233 +21730,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Height" "6.18"
-			(at 140.97 513.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "633-AB11AH-FC"
-			(at 140.97 613.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/AB11AH-FC?qs=E3XkhTW0K2FjNZbXLHs%252BZw%3D%3D"
-			(at 140.97 713.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "NKK Switches"
-			(at 140.97 813.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AB11AH-FC"
-			(at 140.97 913.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Vendor" "https://www.digikey.com/en/products/detail/nkk-switches/AB11AH-FC/1055910?s=N4IgTCBcDaIIICECMS4AkC0AxAwiAugL5A"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/500ASSP1M6QE/E-Switch/view-part/?ref=eda"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "C"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/500ASSP1M6QE/E-Switch/view-part/?ref=snap"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "500ASSP1M6QE"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Slide Switch, 500A Series, SPDT, ON-ON, 3A, 120VAC/28VDC, Silver, R/A, PC Pin | E-Switch 500ASSP1M6QE"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "E-Switch"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SNAPEDA_PN" "500ASSP1M6QE"
-			(at 124.46 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "3"
@@ -22768,6 +22512,143 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V_DUAL")
+		(at 130.81 110.49 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4ad0d14-611f-4b28-9163-8a2962dadfc8")
+		(property "Reference" "Q3"
+			(at 138.176 107.442 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOT2301B2"
+			(at 136.398 97.536 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SOT23-3"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://en.mot-mos.com/small/smallsignalMOS_415.html"
+			(at 130.81 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-Mosfet"
+			(at 130.81 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "MOT2301B2"
+			(at 130.81 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IMax" "2A"
+			(at 136.398 113.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VMax" "20V"
+			(at 138.176 113.284 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/guangdong-inmark-electronics-co-ltd/MOT2301B2/28539117"
+			(at 130.81 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "207c7989-4381-42fa-95ad-d234f665e52c")
+		)
+		(pin "6"
+			(uuid "a7af8467-44c8-44ab-917c-f9dacfbb64e2")
+		)
+		(pin "1"
+			(uuid "086d9f8c-7930-4703-a3bf-0b4c583bf475")
+		)
+		(pin "5"
+			(uuid "3b50d319-0b15-4099-bf85-46ea1a30a519")
+		)
+		(pin "3"
+			(uuid "4c67e56b-0d97-4138-83d8-81b78bb596f8")
+		)
+		(pin "4"
+			(uuid "a117695c-1259-490d-9a17-0a61e35b7995")
+		)
+		(instances
+			(project "Dream_V3"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "Q3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:10k_4x0603_Array")
 		(at 15.24 110.49 90)
 		(unit 1)
@@ -22884,6 +22765,81 @@
 			(project "Dream_V3"
 				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 133.35 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b74d6adf-a21d-4564-b460-3f5576ac3e57")
+		(property "Reference" "#PWR058"
+			(at 133.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 133.858 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 133.35 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56a9d326-afaf-4654-bff3-19247823e1e8")
+		)
+		(instances
+			(project "Dream_V3"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -23266,13 +23222,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "207c7989-4381-42fa-95ad-d234f665e52c")
+			(uuid "207c7989-4381-42fa-95ad-d234f665e52d")
 		)
 		(pin "6"
-			(uuid "a7af8467-44c8-44ab-917c-f9dacfbb64e2")
+			(uuid "a7af8467-44c8-44ab-917c-f9dacfbb64e3")
 		)
 		(pin "1"
-			(uuid "086d9f8c-7930-4703-a3bf-0b4c583bf475")
+			(uuid "086d9f8c-7930-4703-a3bf-0b4c583bf476")
 		)
 		(pin "5"
 			(uuid "e2631569-5a12-4778-823f-ec24a45b93a0")
@@ -24716,6 +24672,154 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V_DUAL")
+		(at 266.7 104.775 180)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d607dce3-cffd-47dc-9e04-e9a8ea837c00")
+		(property "Reference" "Q4"
+			(at 274.32 97.155 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 271.78 97.155 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "digikey-footprints:SOT-523"
+			(at 266.7 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30203.pdf"
+			(at 266.7 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 266.7 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "TRANS-25637"
+			(at 266.7 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IMax" "0.2A"
+			(at 269.24 97.155 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VMax" "50V"
+			(at 266.7 97.155 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/diodes-incorporated/BSS138DW-7-F/808527"
+			(at 266.7 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Custom Feild" ""
+			(at 266.7 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "207c7989-4381-42fa-95ad-d234f665e52b")
+		)
+		(pin "6"
+			(uuid "a7af8467-44c8-44ab-917c-f9dacfbb64e1")
+		)
+		(pin "1"
+			(uuid "086d9f8c-7930-4703-a3bf-0b4c583bf474")
+		)
+		(pin "5"
+			(uuid "6149da4a-ae00-468d-a1a1-31a1dfc05611")
+		)
+		(pin "3"
+			(uuid "559b1908-d9da-4a05-a09c-68922dd577a1")
+		)
+		(pin "4"
+			(uuid "c4095bd4-4b2a-42de-83f0-02c42e60a35d")
+		)
+		(instances
+			(project "Dream_V3"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "Q4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:10k_4x0603_Array")
 		(at 60.96 110.49 90)
 		(unit 4)
@@ -25330,7 +25434,7 @@
 	)
 	(symbol
 		(lib_id "TGS2611-C00:TGS2611-C00")
-		(at 191.77 113.03 0)
+		(at 180.34 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25341,7 +25445,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4f237ce-55e1-46fe-a795-edb847207a56")
 		(property "Reference" "IC1"
-			(at 226.06 105.41 0)
+			(at 214.63 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25351,7 +25455,7 @@
 			)
 		)
 		(property "Value" "TGS2611-C00"
-			(at 226.06 107.95 0)
+			(at 214.63 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25361,7 +25465,7 @@
 			)
 		)
 		(property "Footprint" "tgs2611:tgs2611c00"
-			(at 256.54 207.95 0)
+			(at 245.11 207.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25373,7 +25477,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.figarosensor.com/product/sr-6_product%20information%28fusa%29_rev03.pdf"
-			(at 256.54 307.95 0)
+			(at 245.11 307.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25385,7 +25489,7 @@
 			)
 		)
 		(property "Description" "Figaro TGS2611-C00 Methane Gas Sensor"
-			(at 191.77 113.03 0)
+			(at 180.34 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25396,7 +25500,7 @@
 			)
 		)
 		(property "Height" "8.3"
-			(at 256.54 507.95 0)
+			(at 245.11 507.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25408,7 +25512,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Figaro"
-			(at 256.54 607.95 0)
+			(at 245.11 607.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25420,7 +25524,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SR-6 Sensor Socket"
-			(at 256.54 707.95 0)
+			(at 245.11 707.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25432,7 +25536,7 @@
 			)
 		)
 		(property "Vendor" "https://www.figarosensor.com/product/entry/sr6.html"
-			(at 191.77 113.03 0)
+			(at 180.34 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26134,7 +26238,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 256.54 100.33 180)
+		(at 245.11 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26144,7 +26248,7 @@
 		(dnp no)
 		(uuid "f657d3b1-1292-41c9-bb83-8f90e7b4139e")
 		(property "Reference" "R3"
-			(at 256.54 95.25 0)
+			(at 245.11 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26154,7 +26258,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 256.54 97.79 0)
+			(at 245.11 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26164,7 +26268,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 256.54 96.012 0)
+			(at 245.11 96.012 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26175,7 +26279,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
-			(at 256.54 91.44 0)
+			(at 245.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26186,7 +26290,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 88.9 0)
+			(at 245.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26197,7 +26301,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 256.54 93.98 0)
+			(at 245.11 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26208,7 +26312,7 @@
 			)
 		)
 		(property "Vendor" "https://www.digikey.com/en/products/detail/vishay-dale/RCS06032K00FKEA/5866936"
-			(at 256.54 100.33 0)
+			(at 245.11 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
