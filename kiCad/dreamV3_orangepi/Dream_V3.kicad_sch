@@ -13304,7 +13304,7 @@
 		)
 		(uuid "5c0e45a7-2872-42a1-9961-7797655934a3")
 	)
-	(label "BUS2_SDA_SHIFT"
+	(label "PI10{slash}TWI2_SDA"
 		(at 330.2 29.21 90)
 		(effects
 			(font
@@ -13404,7 +13404,7 @@
 		)
 		(uuid "72c46827-a732-4de1-bbdb-aaf13e69f5be")
 	)
-	(label "BUS2_SCL_SHIFT"
+	(label "PI15{slash}TWI3_SCL"
 		(at 332.74 29.21 90)
 		(effects
 			(font
@@ -22598,7 +22598,7 @@
 				)
 			)
 		)
-		(property "Value" "NK236"
+		(property "Value" "EG1224"
 			(at 128.27 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22609,7 +22609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "500ASSP1M6QE:SW_500ASSP1M6QE"
+		(property "Footprint" "eg1224:SW_EG1224"
 			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -22621,7 +22621,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "NK236"
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/EG.pdf"
 			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -22632,7 +22632,18 @@
 				)
 			)
 		)
-		(property "Description" "Pushbutton Switches OFF-(ON) .201 RD CAP RIGHT ANGL PC .4VA Process Sealed Subminiature Pushbuttons"
+		(property "Description" "SWITCH SLIDE SPDT 500MA 15V"
+			(at 116.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/e-switch/EG1224/502052"
 			(at 116.84 113.03 0)
 			(hide yes)
 			(show_name no)
