@@ -1165,355 +1165,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "500ASSP1M6QE:500ASSP1M6QE"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at -2.54 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "500ASSP1M6QE"
-				(at -2.54 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "500ASSP1M6QE:SW_500ASSP1M6QE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "E-Switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/500ASSP1M6QE/E-Switch/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/500ASSP1M6QE/E-Switch/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "500ASSP1M6QE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Slide Switch, 500A Series, SPDT, ON-ON, 3A, 120VAC/28VDC, Silver, R/A, PC Pin | E-Switch 500ASSP1M6QE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "E-Switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SNAPEDA_PN" "500ASSP1M6QE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "500ASSP1M6QE_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.794 2.1336)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.921 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 2.921 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5013310607:5013310607"
 			(pin_names
 				(offset 1.016)
@@ -3847,6 +3498,418 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EG1224:EG1224"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -5.08 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EG1224"
+				(at -5.08 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EG1224:SW_EG1224"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SLIDE, 500mA, 15VDC SPDT, On-On, Through Hole, Right Angle"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.5 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EG1224/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1224/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EG1224"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EG1224_0_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.794 4.6736)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 5.08)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 2.921 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "M20-7830542:M20-7830542"
 			(pin_names
 				(offset 1.016)
@@ -4544,6 +4607,206 @@
 				(pin passive line
 					(at 2.54 0 180)
 					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-Resistor:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at -1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" "RES-07856"
+				(at 0 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -1.143 -1.016) (xy -1.524 0) (xy -1.905 1.016) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.381 -1.016) (xy 0 0) (xy -0.381 1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.905 -1.016) (xy 1.524 0) (xy 1.143 1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -9204,7 +9467,7 @@
 	)
 	(text "ON/OFF Power"
 		(exclude_from_sim no)
-		(at 107.95 127 0)
+		(at 95.504 127.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9441,7 +9704,13 @@
 		(uuid "0a3f992f-4aeb-4848-ba5c-c35f4dc7f680")
 	)
 	(junction
-		(at 86.36 109.22)
+		(at 100.33 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dfcb8b6-53d2-4e8e-89d0-e946d7ffb0b6")
+	)
+	(junction
+		(at 78.74 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e6ad596-081c-49a2-9659-be031d677ddc")
@@ -9475,12 +9744,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "23136753-86ce-49ee-a7b9-be17aa13f159")
-	)
-	(junction
-		(at 104.14 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24944e28-3fcb-493e-8889-903260e7bfd9")
 	)
 	(junction
 		(at 157.48 67.31)
@@ -9541,6 +9804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "604794de-e6ed-49d7-951b-07803a8f77e2")
+	)
+	(junction
+		(at 92.71 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60b9d4de-edca-410d-9459-71aeabdbdedd")
 	)
 	(junction
 		(at 266.7 58.42)
@@ -9657,6 +9926,12 @@
 		(uuid "a882c3c0-cdd6-489c-af80-69050ae8602e")
 	)
 	(junction
+		(at 90.17 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6c7fedb-2543-4fde-8dec-440eed43dd38")
+	)
+	(junction
 		(at 31.75 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9667,12 +9942,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc1eca6c-e26f-4c88-a240-9cbeff717aca")
-	)
-	(junction
-		(at 124.46 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c37e91c9-0c79-4357-a3c1-3352fdb326b2")
 	)
 	(junction
 		(at 118.11 193.04)
@@ -9785,10 +10054,6 @@
 		(uuid "5feeb398-cb8d-4f5f-bff9-c3c697313192")
 	)
 	(no_connect
-		(at 123.19 109.22)
-		(uuid "6297926e-3fb1-41de-9636-c08f561a723f")
-	)
-	(no_connect
 		(at 36.83 26.67)
 		(uuid "656df239-1732-4650-920f-6e347de7208d")
 	)
@@ -9835,6 +10100,10 @@
 	(no_connect
 		(at 16.51 151.13)
 		(uuid "cbcb7f90-d6db-4006-a9c5-bd320204a156")
+	)
+	(no_connect
+		(at 121.92 119.38)
+		(uuid "d157bebc-cb62-42ce-9809-f8e3f1fb71b5")
 	)
 	(no_connect
 		(at 77.47 46.99)
@@ -9932,13 +10201,23 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 104.14 111.76)
+			(xy 101.6 111.76) (xy 100.33 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05c9f9ae-cf67-44d9-b387-3e4fed9082b9")
+	)
+	(wire
+		(pts
+			(xy 92.71 100.33) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a09943-3581-48b3-95f7-eab29b82123e")
 	)
 	(wire
 		(pts
@@ -10132,7 +10411,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 106.68) (xy 86.36 109.22)
+			(xy 78.74 106.68) (xy 78.74 109.22)
 		)
 		(stroke
 			(width 0)
@@ -10392,6 +10671,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 106.68) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223b1f64-345e-4c59-ac1d-186e9cad4568")
+	)
+	(wire
+		(pts
 			(xy 248.92 113.03) (xy 248.92 104.775)
 		)
 		(stroke
@@ -10492,6 +10781,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2873db2a-ef39-4aff-8a2f-25959baf254f")
+	)
+	(wire
+		(pts
 			(xy 274.32 102.87) (xy 278.13 102.87)
 		)
 		(stroke
@@ -10502,7 +10801,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 132.08 121.92)
+			(xy 130.81 111.76) (xy 130.81 121.92)
 		)
 		(stroke
 			(width 0)
@@ -10652,6 +10951,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 109.22) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d30c41-3dd0-4acf-b4b1-ebf02e331fb6")
+	)
+	(wire
+		(pts
 			(xy 120.65 134.62) (xy 120.65 137.16)
 		)
 		(stroke
@@ -10762,13 +11071,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 120.65) (xy 124.46 121.92)
+			(xy 90.17 100.33) (xy 92.71 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c3dbc22-f354-46ef-8bc9-27432a750e8c")
+		(uuid "3bdd52df-f679-4708-8aa8-ccbda68e5204")
 	)
 	(wire
 		(pts
@@ -11180,16 +11489,6 @@
 		)
 		(uuid "55a4eb1a-db15-417b-975c-1312d72af012")
 	)
-	(polyline
-		(pts
-			(xy 100.33 92.71) (xy 100.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "56193d91-e06c-4f29-8fdd-9f0b33535d5f")
-	)
 	(wire
 		(pts
 			(xy 36.83 41.91) (xy 33.655 41.91)
@@ -11252,16 +11551,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 114.3) (xy 124.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5937da66-71ef-4a59-a078-6a6b9b8a5bb7")
-	)
-	(wire
-		(pts
 			(xy 259.08 27.94) (xy 259.08 29.21)
 		)
 		(stroke
@@ -11292,7 +11581,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 86.36 113.03)
+			(xy 78.74 109.22) (xy 78.74 113.03)
 		)
 		(stroke
 			(width 0)
@@ -11362,16 +11651,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 100.33) (xy 104.14 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa705c5-1999-4c26-9378-feaedde23856")
-	)
-	(wire
-		(pts
 			(xy 161.29 134.62) (xy 161.29 138.43)
 		)
 		(stroke
@@ -11399,6 +11678,16 @@
 			(type default)
 		)
 		(uuid "61f96987-3119-4e69-9bb7-06681a5bb673")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625b4270-0813-4b6d-8fe9-7fc9fd3f7527")
 	)
 	(wire
 		(pts
@@ -11582,6 +11871,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 119.38) (xy 120.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f31ce72-abf2-402a-8deb-de4e708a3aa2")
+	)
+	(wire
+		(pts
 			(xy 36.83 82.55) (xy 31.75 82.55)
 		)
 		(stroke
@@ -11629,6 +11928,16 @@
 			(type default)
 		)
 		(uuid "72fcb274-4f79-4e25-985d-0bd7a417b2b5")
+	)
+	(wire
+		(pts
+			(xy 90.17 104.14) (xy 90.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745a2b37-52cc-420e-bf05-5b3ee451ed5a")
 	)
 	(wire
 		(pts
@@ -11742,6 +12051,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785fcd4f-02be-491a-abd1-3d9f9321893e")
+	)
+	(wire
+		(pts
 			(xy 140.97 35.56) (xy 140.97 33.02)
 		)
 		(stroke
@@ -11772,7 +12091,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 100.33) (xy 104.14 96.52)
+			(xy 92.71 100.33) (xy 92.71 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11799,16 +12118,6 @@
 			(type default)
 		)
 		(uuid "7ce2ad49-13c5-42d2-b361-3484e9d85b82")
-	)
-	(wire
-		(pts
-			(xy 124.46 114.3) (xy 124.46 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d50d910-f735-447a-a766-fac1142f9f32")
 	)
 	(wire
 		(pts
@@ -11982,7 +12291,7 @@
 	)
 	(polyline
 		(pts
-			(xy 87.63 128.27) (xy 87.63 198.12)
+			(xy 87.63 92.71) (xy 87.63 198.12)
 		)
 		(stroke
 			(width 0)
@@ -12112,16 +12421,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 127 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957dfc33-6b6a-4182-a0ea-c4057e66df83")
-	)
-	(wire
-		(pts
 			(xy 31.75 59.69) (xy 31.75 62.23)
 		)
 		(stroke
@@ -12142,7 +12441,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 99.06) (xy 86.36 101.6)
+			(xy 78.74 99.06) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12442,7 +12741,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 109.22) (xy 86.36 109.22)
+			(xy 74.93 109.22) (xy 78.74 109.22)
 		)
 		(stroke
 			(width 0)
@@ -12559,6 +12858,16 @@
 			(type default)
 		)
 		(uuid "be57d96d-8980-407c-b67f-a265927bb59b")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.3) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5ddad1-f430-44bf-b14d-7308b87f6bff")
 	)
 	(wire
 		(pts
@@ -12712,6 +13021,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d4b44e-5851-4eea-891a-0f4842205979")
+	)
+	(wire
+		(pts
 			(xy 16.51 173.99) (xy 45.72 173.99)
 		)
 		(stroke
@@ -12732,7 +13051,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 86.36 119.38)
+			(xy 78.74 118.11) (xy 78.74 119.38)
 		)
 		(stroke
 			(width 0)
@@ -12749,6 +13068,16 @@
 			(type default)
 		)
 		(uuid "c8b3a179-0877-460e-af27-660806601bff")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8be9258-d5b5-4d22-bccc-157cc9a6ebce")
 	)
 	(wire
 		(pts
@@ -12882,16 +13211,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 100.33) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde2720c-0692-4852-9920-8561a1367e90")
-	)
-	(wire
-		(pts
 			(xy 58.42 186.69) (xy 85.09 186.69)
 		)
 		(stroke
@@ -12972,6 +13291,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 104.14) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d500baa0-2b6d-429c-b5a7-68d9faf9894c")
+	)
+	(wire
+		(pts
 			(xy 152.4 64.77) (xy 152.4 81.28)
 		)
 		(stroke
@@ -13002,7 +13331,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 100.33) (xy 132.08 104.14)
+			(xy 130.81 100.33) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -13089,6 +13418,16 @@
 			(type default)
 		)
 		(uuid "db54c67f-ccd8-47a2-9759-5ecf7c6a2e39")
+	)
+	(wire
+		(pts
+			(xy 90.17 100.33) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb4bd41-e1f9-4dee-95de-fe75f6dd9fc1")
 	)
 	(wire
 		(pts
@@ -13322,6 +13661,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 104.14) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf1aed5-08c7-4b17-867b-1f0d99126095")
+	)
+	(wire
+		(pts
 			(xy 144.78 185.42) (xy 142.24 185.42)
 		)
 		(stroke
@@ -13472,16 +13821,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 114.3) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f51889e9-3591-41d5-bfec-53a55c445085")
-	)
-	(wire
-		(pts
 			(xy 81.28 21.59) (xy 81.28 20.32)
 		)
 		(stroke
@@ -13572,6 +13911,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 114.3) (xy 124.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2a64c8-c745-4261-b30c-a5b5742ad2a3")
+	)
+	(wire
+		(pts
 			(xy 124.46 58.42) (xy 124.46 59.69)
 		)
 		(stroke
@@ -13601,7 +13950,7 @@
 		(uuid "028ee1f8-b804-466e-a3b7-c4e056b9fec1")
 	)
 	(label "5V_BUS_USB"
-		(at 104.14 96.52 0)
+		(at 92.71 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14131,16 +14480,6 @@
 		)
 		(uuid "a60299b5-b50e-4b69-be20-8bbb01f20ca4")
 	)
-	(label "switch_gate"
-		(at 123.19 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7a13d3d-9897-4166-8b3c-1da1a6e78f28")
-	)
 	(label "PH2{slash}UART5_TX"
 		(at 16.51 151.13 0)
 		(effects
@@ -14341,6 +14680,16 @@
 		)
 		(uuid "d1cdf88b-dab5-4f42-bec7-ea1302c83d50")
 	)
+	(label "SWITCH_GATE"
+		(at 102.87 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd883940-12ef-4c62-ae70-d8322cbcb257")
+	)
 	(label "PH7{slash}SPI1_MOSI"
 		(at 208.28 180.34 0)
 		(effects
@@ -14372,7 +14721,7 @@
 		(uuid "e5165411-321c-4196-95bd-4cf35864a127")
 	)
 	(label "ADS_ADDR"
-		(at 82.55 109.22 90)
+		(at 74.93 109.22 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19049,99 +19398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Resistor:10k_0603")
-		(at 124.46 118.11 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49e43d9c-6c75-4761-9c0c-470d6b8f1bc7")
-		(property "Reference" "R16"
-			(at 127 116.8399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 127 119.3799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 128.778 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 133.35 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-00824"
-			(at 130.81 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "32998de9-2a40-4047-b38e-c4ba66720562")
-		)
-		(pin "1"
-			(uuid "a7647332-8959-41c1-b5b6-58415639e6d6")
-		)
-		(instances
-			(project "Dream_V3"
-				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 274.32 105.41 90)
 		(unit 1)
@@ -19735,7 +19991,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 119.38 0)
+		(at 78.74 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19745,7 +20001,7 @@
 		(dnp no)
 		(uuid "58030a53-d9c0-4fc8-8f1b-67329018fdc1")
 		(property "Reference" "#PWR045"
-			(at 86.36 125.73 0)
+			(at 78.74 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19756,7 +20012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.4743 123.7044 0)
+			(at 78.8543 123.7044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19766,7 +20022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 119.38 0)
+			(at 78.74 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19776,7 +20032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 119.38 0)
+			(at 78.74 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19786,7 +20042,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 119.38 0)
+			(at 78.74 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21173,7 +21429,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 86.36 99.06 0)
+		(at 78.74 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21183,7 +21439,7 @@
 		(dnp no)
 		(uuid "71a2cfd0-ea8d-4dd3-8ddf-eb833ec24fbb")
 		(property "Reference" "#PWR043"
-			(at 86.36 102.87 0)
+			(at 78.74 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21194,7 +21450,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 86.7283 94.7356 0)
+			(at 79.1083 94.7356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21204,7 +21460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 99.06 0)
+			(at 78.74 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21214,7 +21470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 99.06 0)
+			(at 78.74 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21224,7 +21480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 99.06 0)
+			(at 78.74 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22826,6 +23082,98 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:R")
+		(at 95.25 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99090821-644c-4e95-8b9f-eab3565c7cb3")
+		(property "Reference" "R2"
+			(at 96.52 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 98.044 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 95.25 108.712 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 93.98 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100k ohm SMD resistor"
+			(at 95.25 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889"
+			(at 95.25 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e6148e9-b09b-44fa-a931-a34c38ee0414")
+		)
+		(pin "2"
+			(uuid "8331569d-d385-4384-8fa6-4efde70919c4")
+		)
+		(instances
+			(project "Dream_V3"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:10k_4x0603_Array")
 		(at 124.46 22.86 90)
 		(unit 2)
@@ -23288,101 +23636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "500ASSP1M6QE:500ASSP1M6QE")
-		(at 115.57 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a69dcc4a-0867-4d62-98b3-ac642dce8f7f")
-		(property "Reference" "S1"
-			(at 119.38 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EG1224"
-			(at 127 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "eg1224:SW_EG1224"
-			(at 115.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/EG.pdf"
-			(at 115.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SWITCH SLIDE SPDT 500MA 15V"
-			(at 115.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "https://www.digikey.com/en/products/detail/e-switch/EG1224/502052"
-			(at 115.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b570f44c-3c8d-4fb9-a3d4-ef3e01a1cae0")
-		)
-		(pin "2"
-			(uuid "6310d294-dcfd-412d-837d-0a2529347a4a")
-		)
-		(pin "1"
-			(uuid "b61b4846-7cda-460c-99e1-f498feddf2bd")
-		)
-		(instances
-			(project "Dream_V3"
-				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 118.11 194.31 180)
 		(unit 1)
@@ -23832,7 +24085,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Resistor:10k_0603")
-		(at 86.36 115.57 90)
+		(at 78.74 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23843,7 +24096,7 @@
 		(fields_autoplaced yes)
 		(uuid "aecabaf6-22b2-4304-9626-b31b53bc58ae")
 		(property "Reference" "R17"
-			(at 88.9 114.2999 90)
+			(at 81.28 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23854,7 +24107,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 88.9 116.8399 90)
+			(at 81.28 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23865,7 +24118,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 90.678 115.57 0)
+			(at 83.058 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23876,7 +24129,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 95.25 115.57 0)
+			(at 87.63 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23887,7 +24140,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 115.57 0)
+			(at 90.17 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23898,7 +24151,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 92.71 115.57 0)
+			(at 85.09 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24238,7 +24491,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V_DUAL")
-		(at 129.54 109.22 0)
+		(at 128.27 106.68 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24248,7 +24501,7 @@
 		(dnp no)
 		(uuid "b4ad0d14-611f-4b28-9163-8a2962dadfc8")
 		(property "Reference" "Q3"
-			(at 136.906 106.172 90)
+			(at 135.89 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24259,7 +24512,7 @@
 			)
 		)
 		(property "Value" "MOT2301B2"
-			(at 135.128 96.266 90)
+			(at 134.112 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24270,7 +24523,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SOT23-3"
-			(at 129.54 119.38 0)
+			(at 128.27 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24281,7 +24534,7 @@
 			)
 		)
 		(property "Datasheet" "https://en.mot-mos.com/small/smallsignalMOS_415.html"
-			(at 129.54 121.92 0)
+			(at 128.27 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24292,7 +24545,7 @@
 			)
 		)
 		(property "Description" "P-Mosfet"
-			(at 129.54 127 0)
+			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24303,7 +24556,7 @@
 			)
 		)
 		(property "PROD_ID" "MOT2301B2"
-			(at 129.54 124.46 0)
+			(at 128.27 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24314,7 +24567,7 @@
 			)
 		)
 		(property "IMax" "2A"
-			(at 135.128 112.014 90)
+			(at 134.112 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24325,7 +24578,7 @@
 			)
 		)
 		(property "VMax" "20V"
-			(at 136.906 112.014 90)
+			(at 135.89 113.792 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24336,7 +24589,7 @@
 			)
 		)
 		(property "Vendor" "https://www.digikey.com/en/products/detail/guangdong-inmark-electronics-co-ltd/MOT2301B2/28539117"
-			(at 129.54 109.22 0)
+			(at 128.27 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24497,7 +24750,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 132.08 121.92 180)
+		(at 130.81 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24507,7 +24760,7 @@
 		(dnp no)
 		(uuid "b74d6adf-a21d-4564-b460-3f5576ac3e57")
 		(property "Reference" "#PWR058"
-			(at 132.08 118.11 0)
+			(at 130.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24518,7 +24771,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 132.588 125.476 0)
+			(at 131.318 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24528,7 +24781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 121.92 0)
+			(at 130.81 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24538,7 +24791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 121.92 0)
+			(at 130.81 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24548,7 +24801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 121.92 0)
+			(at 130.81 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25700,7 +25953,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Jumper:SolderJumper_2_Open")
-		(at 86.36 104.14 90)
+		(at 78.74 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25711,7 +25964,7 @@
 		(fields_autoplaced yes)
 		(uuid "c441ecf6-1c25-482b-8733-ff308f2ca311")
 		(property "Reference" "JP2"
-			(at 88.9 103.5049 90)
+			(at 81.28 103.5049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25722,7 +25975,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 88.9 105.41 90)
+			(at 81.28 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25733,7 +25986,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NO"
-			(at 89.662 104.14 0)
+			(at 82.042 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25744,7 +25997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 104.14 0)
+			(at 85.09 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25755,7 +26008,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 95.25 104.14 0)
+			(at 87.63 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26439,7 +26692,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 121.92 0)
+		(at 127 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26449,7 +26702,7 @@
 		(dnp no)
 		(uuid "d1a3a7f5-5aa2-4dd2-aab0-0d9624569b42")
 		(property "Reference" "#PWR080"
-			(at 124.46 128.27 0)
+			(at 127 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26460,7 +26713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.5743 126.2444 0)
+			(at 127 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26470,7 +26723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 121.92 0)
+			(at 127 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26480,7 +26733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 121.92 0)
+			(at 127 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26490,7 +26743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 121.92 0)
+			(at 127 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26701,6 +26954,234 @@
 			(project "Dream_V3"
 				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EG1224:EG1224")
+		(at 111.76 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d41716e0-e6dc-40e5-8dda-15141397ed1c")
+		(property "Reference" "S2"
+			(at 105.156 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EG1224"
+			(at 112.014 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "eg1224:SW_EG1224"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SLIDE, 500mA, 15VDC SPDT, On-On, Through Hole, Right Angle"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.5 mm"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1224/E-Switch/view-part/?ref=eda"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1224/E-Switch/view-part/?ref=snap"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EG1224"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 111.76 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "S3"
+			(uuid "b0cb9789-1e63-4d9b-b7ad-7c1ce5a0d6eb")
+		)
+		(pin "S1"
+			(uuid "2166317b-ddfa-4e72-89c5-932ff7124c1b")
+		)
+		(pin "3"
+			(uuid "a651f2ff-a179-404e-9bcd-8bf4579c1f08")
+		)
+		(pin "S2"
+			(uuid "ee9ef3ed-02b5-4526-8493-567f70abfa9a")
+		)
+		(pin "2"
+			(uuid "c97bc8fd-3f8a-49dc-96d7-35fb82ea5009")
+		)
+		(pin "1"
+			(uuid "0d54aae0-15a5-4781-83e1-06bf4d8c4368")
+		)
+		(pin "S4"
+			(uuid "4b192670-1f84-4358-a015-6245da3838d1")
+		)
+		(instances
+			(project "Dream_V3"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "S2")
 					(unit 1)
 				)
 			)
