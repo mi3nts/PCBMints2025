@@ -1,0 +1,37 @@
+* Dream V3 TGS2611 / ADS1115 analog-input audit
+* TGS2611 sensor-resistance limits: 0.68k to 6.8k at the datasheet test point.
+* Existing network is Rsensor to 5 V, R3=2k to ground, R19=10k series,
+* followed here by a conservative 10 Mohm ADC input resistance.
+
+V5A v5a 0 5
+RSA v5a rawa 680
+RLA rawa 0 2000
+RSER_A rawa adca 10000
+RADC_A adca 0 10Meg
+
+V5B v5b 0 5
+RSB v5b rawb 1000
+RLB rawb 0 2000
+RSER_B rawb adcb 10000
+RADC_B adcb 0 10Meg
+
+V5C v5c 0 5
+RSC v5c rawc 6800
+RLC rawc 0 2000
+RSER_C rawc adcc 10000
+RADC_C adcc 0 10Meg
+
+* One illustrative passive mitigation: retain 10k series and add 33k to ground.
+* This is not a final recommendation without settling-time/calibration analysis.
+V5D v5d 0 5
+RSD v5d rawd 680
+RLD rawd 0 2000
+RSER_D rawd adcd 10000
+RADC_D adcd 0 33000
+
+.control
+op
+print v(rawa) v(adca) v(adcb) v(adcc) v(adcd)
+quit
+.endc
+.end

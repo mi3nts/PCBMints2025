@@ -1,0 +1,40 @@
+* Dream V3 I2C pull-up rise-time audit.
+* Measures the I2C-standard 30%-to-70% rise interval on representative bus C.
+
+VSTEP10_35 s10_35 0 PULSE(0 3.3 1n 1p 1p 10u 20u)
+R10_35 s10_35 n10_35 10k
+C10_35 n10_35 0 35p IC=0
+
+VSTEP10_100 s10_100 0 PULSE(0 3.3 1n 1p 1p 10u 20u)
+R10_100 s10_100 n10_100 10k
+C10_100 n10_100 0 100p IC=0
+
+VSTEP10_200 s10_200 0 PULSE(0 3.3 1n 1p 1p 10u 20u)
+R10_200 s10_200 n10_200 10k
+C10_200 n10_200 0 200p IC=0
+
+VSTEP4K7_100 s4k7_100 0 PULSE(0 3.3 1n 1p 1p 10u 20u)
+R4K7_100 s4k7_100 n4k7_100 4.7k
+C4K7_100 n4k7_100 0 100p IC=0
+
+VSTEP2K2_100 s2k2_100 0 PULSE(0 3.3 1n 1p 1p 10u 20u)
+R2K2_100 s2k2_100 n2k2_100 2.2k
+C2K2_100 n2k2_100 0 100p IC=0
+
+.tran 1n 5u uic
+.meas tran T30_10K_35P when v(n10_35)=0.99 rise=1
+.meas tran T70_10K_35P when v(n10_35)=2.31 rise=1
+.meas tran TR_10K_35P param='T70_10K_35P-T30_10K_35P'
+.meas tran T30_10K_100P when v(n10_100)=0.99 rise=1
+.meas tran T70_10K_100P when v(n10_100)=2.31 rise=1
+.meas tran TR_10K_100P param='T70_10K_100P-T30_10K_100P'
+.meas tran T30_10K_200P when v(n10_200)=0.99 rise=1
+.meas tran T70_10K_200P when v(n10_200)=2.31 rise=1
+.meas tran TR_10K_200P param='T70_10K_200P-T30_10K_200P'
+.meas tran T30_4K7_100P when v(n4k7_100)=0.99 rise=1
+.meas tran T70_4K7_100P when v(n4k7_100)=2.31 rise=1
+.meas tran TR_4K7_100P param='T70_4K7_100P-T30_4K7_100P'
+.meas tran T30_2K2_100P when v(n2k2_100)=0.99 rise=1
+.meas tran T70_2K2_100P when v(n2k2_100)=2.31 rise=1
+.meas tran TR_2K2_100P param='T70_2K2_100P-T30_2K2_100P'
+.end

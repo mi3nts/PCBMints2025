@@ -1,0 +1,75 @@
+* Dream V3 USB-C/Q3 topology audit
+* MOT2301B2 is represented conservatively at its 120 mOhm max Rds(on).
+* The body diode is an intentionally generic approximation; topology conclusions
+* (off-state diode feed and reverse backfeed when the board is externally powered)
+* do not depend on an exact diode model.
+
+.model PMOS_PATH SW(Ron=0.12 Roff=1e12 Vt=1.0 Vh=0.1)
+.model BODY_DIODE D(Is=1n N=1.8 Rs=0.12)
+
+* Normal ON, loads nominally 0.1 A / 0.5 A / 1 A / 2 A at 5 V.
+VON01 on01_src 0 5
+RIN01 on01_src on01_d 0.02
+SON01 on01_d on01_out on01_out 0 PMOS_PATH
+DON01 on01_d on01_out BODY_DIODE
+RLON01 on01_out 0 50
+
+VON05 on05_src 0 5
+RIN05 on05_src on05_d 0.02
+SON05 on05_d on05_out on05_out 0 PMOS_PATH
+DON05 on05_d on05_out BODY_DIODE
+RLON05 on05_out 0 10
+
+VON1 on1_src 0 5
+RIN1 on1_src on1_d 0.02
+SON1 on1_d on1_out on1_out 0 PMOS_PATH
+DON1 on1_d on1_out BODY_DIODE
+RLON1 on1_out 0 5
+
+VON2 on2_src 0 5
+RIN2 on2_src on2_d 0.02
+SON2 on2_d on2_out on2_out 0 PMOS_PATH
+DON2 on2_d on2_out BODY_DIODE
+RLON2 on2_out 0 2.5
+
+* Switch OFF as drawn: gate is tied to USB input/drain, leaving the body diode.
+VOFF01 off01_src 0 5
+RINOFF01 off01_src off01_d 0.02
+SOFF01 off01_d off01_out off01_out off01_d PMOS_PATH
+DOFF01 off01_d off01_out BODY_DIODE
+RLOFF01 off01_out 0 50
+
+VOFF05 off05_src 0 5
+RINOFF05 off05_src off05_d 0.02
+SOFF05 off05_d off05_out off05_out off05_d PMOS_PATH
+DOFF05 off05_d off05_out BODY_DIODE
+RLOFF05 off05_out 0 10
+
+* Board powered from the Orange Pi side while USB-C input is nominally absent.
+* Gate remains at ground through R16, so the MOSFET channel is ON bidirectionally.
+VBOARD back_src 0 5
+RBOARDSRC back_src back_out 0.05
+SBACK back_usb back_out back_out 0 PMOS_PATH
+DBACK back_usb back_out BODY_DIODE
+RUSBPORT back_usb 0 10000
+
+.control
+op
+print v(on01_out)
+print -i(VON01)
+print v(on05_out)
+print -i(VON05)
+print v(on1_out)
+print -i(VON1)
+print v(on2_out)
+print -i(VON2)
+print (v(on2_d)-v(on2_out))*(-i(VON2))
+print v(off01_out)
+print -i(VOFF01)
+print v(off05_out)
+print -i(VOFF05)
+print v(back_usb)
+print -i(VBOARD)
+quit
+.endc
+.end

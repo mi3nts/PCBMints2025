@@ -1,0 +1,18 @@
+test,case,result,unit,interpretation
+USB power path,ON nominal 0.1 A,4.986,Vout_V,Passes voltage in simplified model
+USB power path,ON nominal 0.5 A,4.931,Vout_V,Increasing Q3 drop
+USB power path,ON nominal 1.0 A,4.864,Vout_V,Material undervoltage margin loss
+USB power path,ON nominal 2.0 A,4.735,Vout_V,Only 1.894 A delivered into 2.5 ohm load
+USB power path,ON nominal 2.0 A,0.430,Q3_W,SOT-23 dissipation is marginal before thermal derating
+USB power path,OFF nominal 0.1 A,4.140,Vout_V,OFF is not isolated; body diode supplies the rail
+USB power path,OFF nominal 0.5 A,4.021,Vout_V,OFF is not isolated; body diode supplies the rail
+USB power path,Orange-Pi side powered,4.9999,USB_VBUS_V,Reverse backfeed reaches the USB-C receptacle
+TGS2611 to ADS1115,Rs=680 ohm,3.731,ADC_pin_V,Exceeds ADS1115 3.6 V absolute maximum at VDD=3.3 V
+TGS2611 to ADS1115,Rs=1 kohm,3.330,ADC_pin_V,Above the recommended VDD input limit
+TGS2611 to ADS1115,Rs=6.8 kohm,1.135,ADC_pin_V,Within range
+TGS2611 to ADS1115,illustrative 10k/33k load,2.830,ADC_pin_V,Safer voltage but transfer function changes; not a final design
+I2C rise time,10k and 35 pF,296.6,ns,Barely meets 400 kHz 300 ns maximum
+I2C rise time,10k and 100 pF,847.3,ns,Passes 100 kHz but fails 400 kHz
+I2C rise time,10k and 200 pF,1694.6,ns,Fails 100 kHz and 400 kHz
+I2C rise time,4.7k and 100 pF,398.2,ns,Passes 100 kHz but fails 400 kHz
+I2C rise time,2.2k and 100 pF,186.4,ns,Passes 400 kHz rise-time limit
