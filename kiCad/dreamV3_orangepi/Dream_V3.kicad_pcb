@@ -94,7 +94,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -21490,7 +21489,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 109.732948 30.849069 0)
+		(at 109.732948 31.25 0)
 		(layer "F.SilkS")
 		(uuid "1b69cf39-012b-4d1e-acaf-64116c624fed")
 		(effects
