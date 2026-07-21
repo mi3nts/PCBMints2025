@@ -4825,6 +4825,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Resistor:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at -1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" "RES-07856"
+				(at 0 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RC0603FR-07330RL:RC0603FR-07330RL"
 			(pin_names
 				(offset 1.016)
@@ -9734,12 +9896,6 @@
 		(uuid "17365ad7-0003-4c56-aa7e-333bd7afcc6e")
 	)
 	(junction
-		(at 236.855 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bf36272-5263-4714-bca4-eb97a41200e3")
-	)
-	(junction
 		(at 60.96 173.99)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -9798,6 +9954,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4970ddbe-b850-40c5-93b0-8a64b8b55db6")
+	)
+	(junction
+		(at 252.73 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ad768de-232d-4cec-9b4f-7c087f67a9cf")
 	)
 	(junction
 		(at 31.75 80.01)
@@ -9896,12 +10058,6 @@
 		(uuid "a2eed487-556a-4213-937e-3cd4583eb149")
 	)
 	(junction
-		(at 252.73 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4212b69-6439-47ba-b128-5a22357ecb53")
-	)
-	(junction
 		(at 260.35 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9924,6 +10080,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a882c3c0-cdd6-489c-af80-69050ae8602e")
+	)
+	(junction
+		(at 236.855 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c121fe-72da-451b-894c-9d299a758404")
 	)
 	(junction
 		(at 90.17 104.14)
@@ -11411,6 +11573,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 100.33) (xy 252.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6e7084-e182-423b-9fe2-f7fb8f453868")
+	)
+	(wire
+		(pts
 			(xy 16.51 143.51) (xy 45.72 143.51)
 		)
 		(stroke
@@ -12541,6 +12713,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.855 100.33) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a62caf-2839-47f0-ad72-d8c21be4fd6c")
+	)
+	(wire
+		(pts
 			(xy 179.07 115.57) (xy 179.07 113.03)
 		)
 		(stroke
@@ -12848,16 +13030,6 @@
 			(type default)
 		)
 		(uuid "be1f853e-4936-495f-9715-3aab92b009da")
-	)
-	(wire
-		(pts
-			(xy 236.855 100.33) (xy 242.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be57d96d-8980-407c-b67f-a265927bb59b")
 	)
 	(wire
 		(pts
@@ -13728,16 +13900,6 @@
 			(type default)
 		)
 		(uuid "f22f5bc9-23d1-4957-a984-d5f11dc65159")
-	)
-	(wire
-		(pts
-			(xy 247.65 100.33) (xy 252.73 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23af71e-842c-4394-8dcb-ed208060a07a")
 	)
 	(wire
 		(pts
@@ -21503,6 +21665,96 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Resistor:R_Small")
+		(at 242.57 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7774d226-ca4c-4c66-9c83-1671d8bce571")
+		(property "Reference" "R3"
+			(at 242.57 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 242.57 98.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+			(at 242.57 104.902 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_51_ROHS_P"
+			(at 241.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "https://www.digikey.com/en/products/detail/vishay-dale/RCS06032K00FKEA/5866936"
+			(at 242.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ceb87e97-2a06-4a1b-a9f6-6103ec9df888")
+		)
+		(pin "1"
+			(uuid "d548866c-ebaa-40c4-bf7c-8ec7a9da0553")
+		)
+		(instances
+			(project "Dream_V3"
+				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RC0603N_YAG:RC0603FR-075K1L")
 		(at 19.05 34.29 270)
 		(unit 1)
@@ -27403,7 +27655,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d96b25bf-4cfe-43cb-ae75-77022a538538")
@@ -28820,7 +29072,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2f78a28-bd29-4dca-9f37-a4765e56e3c0")
@@ -29017,107 +29269,6 @@
 			(project "Dream_V3"
 				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 245.11 100.33 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f657d3b1-1292-41c9-bb83-8f90e7b4139e")
-		(property "Reference" "R3"
-			(at 245.11 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 245.11 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 245.11 96.012 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20065/rcse3.pdf"
-			(at 245.11 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 245.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-00824"
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "https://www.digikey.com/en/products/detail/vishay-dale/RCS06032K00FKEA/5866936"
-			(at 245.11 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6cac0fbd-81b5-40c3-acf9-9a29c4251dcd")
-		)
-		(pin "1"
-			(uuid "9ad5a3a7-3bd6-4b61-b0a9-344c3339d7be")
-		)
-		(instances
-			(project "Dream_V3"
-				(path "/2e6c5911-b70b-472e-9c41-0189ab22b77d"
-					(reference "R3")
 					(unit 1)
 				)
 			)
