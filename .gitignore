@@ -52,3 +52,7 @@ eagle.epf
 
 # history files
 .history/
+
+# KiCad: automatic backup archives and local project database
+*-backups/
+**/database/project.db
