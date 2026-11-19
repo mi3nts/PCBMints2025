@@ -1,0 +1,391 @@
+ERC report (2026-11-18T19:01:25, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(36.83 mm, 29.21 mm): Symbol J11 Pin A4 [VBUS_A4, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(40.64 mm, 134.62 mm): Symbol #PWR04 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(60.96 mm, 134.62 mm): Symbol #PWR01 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(60.96 mm, 190.50 mm): Symbol #PWR02 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(205.74 mm, 167.64 mm): Symbol J7 Pin S2 [SHIELD2, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(205.74 mm, 170.18 mm): Symbol J7 Pin S1 [SHIELD1, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(15.24 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(15.24 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'RC0603N_YAG'
+    ; warning
+    @(19.05 mm, 34.29 mm): Symbol R7 [RC0603FR-075K1L]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(19.05 mm, 34.29 mm): Symbol R7 Pin 2 [Unspecified, Line]
+    @(36.83 mm, 31.75 mm): Symbol J11 Pin A5 [CC1, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(19.05 mm, 46.99 mm): Symbol R7 Pin 1 [Unspecified, Line]
+    @(19.05 mm, 50.80 mm): Symbol #PWR053 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(30.48 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(30.48 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(30.48 mm, 27.94 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(33.655 mm, 29.21 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(33.655 mm, 29.21 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(36.83 mm, 41.91 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(33.655 mm, 41.91 mm): Vertical Wire, length 12.70 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(44.45 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(44.45 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[footprint_link_issues]: The current configuration does not include the footprint library '10132328_10011LF'
+    ; warning
+    @(57.15 mm, 36.83 mm): Symbol J11 [10132328-10011LF]
+[lib_symbol_issues]: The current configuration does not include the symbol library '10132328-10011LF'
+    ; warning
+    @(57.15 mm, 36.83 mm): Symbol J11 [10132328-10011LF]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(60.96 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(60.96 mm, 110.49 mm): Symbol R5 [10k_4x0603_Array]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Jumper'
+    ; warning
+    @(78.74 mm, 104.14 mm): Symbol JP2 [SolderJumper_2_Open]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Jumper'
+    ; warning
+    @(78.74 mm, 104.14 mm): Symbol JP2 [SolderJumper_2_Open]
+[footprint_link_issues]: The current configuration does not include the footprint library 'RC0603FR_075K1L'
+    ; warning
+    @(90.17 mm, 41.91 mm): Symbol R6 [RC0603FR-075K1L]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'RC0603N_YAG'
+    ; warning
+    @(90.17 mm, 41.91 mm): Symbol R6 [RC0603FR-075K1L]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(90.17 mm, 41.91 mm): Symbol R6 Pin 2 [Unspecified, Line]
+    @(77.47 mm, 39.37 mm): Symbol J11 Pin B5 [CC2, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(90.17 mm, 54.61 mm): Symbol R6 Pin 1 [Unspecified, Line]
+    @(90.17 mm, 58.42 mm): Symbol #PWR054 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library 'RC0603FR_075K1L'
+    ; warning
+    @(104.14 mm, 143.51 mm): Symbol R8 [RC0603FR-07330RL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'RC0603FR-07330RL'
+    ; warning
+    @(104.14 mm, 143.51 mm): Symbol R8 [RC0603FR-07330RL]
+[footprint_link_issues]: The current configuration does not include the footprint library 'eg1224'
+    ; warning
+    @(111.76 mm, 114.30 mm): Symbol S2 [EG1224]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'EG1224'
+    ; warning
+    @(111.76 mm, 114.30 mm): Symbol S2 [EG1224]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(115.57 mm, 22.86 mm): Symbol R1 [Pullup_Array_4]
+[footprint_link_issues]: The current configuration does not include the footprint library 'custom_footprints'
+    ; warning
+    @(115.57 mm, 177.80 mm): Symbol U5 [BME280]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(116.84 mm, 62.23 mm): Symbol R13 [Pullup_Array_4]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(121.92 mm, 119.38 mm): Horizontal Wire, length 1.27 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-LED'
+    ; warning
+    @(120.65 mm, 144.78 mm): Symbol D1 [WS2812B_5050]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-LED'
+    ; warning
+    @(120.65 mm, 144.78 mm): Symbol D1 [WS2812B_5050]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(124.46 mm, 22.86 mm): Symbol R1 [Pullup_Array_4]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(124.46 mm, 62.23 mm): Symbol R13 [Pullup_Array_4]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Semiconductor-Standard'
+    ; warning
+    @(125.73 mm, 44.45 mm): Symbol Q1 [Q_NMOS_0.2A_50V_DUAL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-DiscreteSemi'
+    ; warning
+    @(125.73 mm, 44.45 mm): Symbol Q1 [Q_NMOS_0.2A_50V_DUAL]
+[footprint_link_issues]: Footprint 'SOT-363' not found in library 'PCM_SparkFun-Semiconductor-Standard'
+    ; warning
+    @(125.73 mm, 83.82 mm): Symbol Q2 [Q_NMOS_0.2A_50V_DUAL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-DiscreteSemi'
+    ; warning
+    @(125.73 mm, 83.82 mm): Symbol Q2 [Q_NMOS_0.2A_50V_DUAL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-DiscreteSemi'
+    ; warning
+    @(128.27 mm, 106.68 mm): Symbol Q3 [Q_NMOS_0.2A_50V_DUAL]
+[missing_unit]: Symbol Q3 has unplaced units [ A ]
+    ; warning
+    @(128.27 mm, 106.68 mm): Symbol Q3 [Q_NMOS_0.2A_50V_DUAL]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Capacitor'
+    ; warning
+    @(134.62 mm, 142.24 mm): Symbol C4 [10uF_0805_25V_10%]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Capacitor'
+    ; warning
+    @(134.62 mm, 142.24 mm): Symbol C4 [10uF_0805_25V_10%]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Semiconductor-Standard'
+    ; warning
+    @(140.97 mm, 30.48 mm): Symbol Q1 [Q_NMOS_0.2A_50V_DUAL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-DiscreteSemi'
+    ; warning
+    @(140.97 mm, 30.48 mm): Symbol Q1 [Q_NMOS_0.2A_50V_DUAL]
+[footprint_link_issues]: Footprint 'SOT-363' not found in library 'PCM_SparkFun-Semiconductor-Standard'
+    ; warning
+    @(140.97 mm, 69.85 mm): Symbol Q2 [Q_NMOS_0.2A_50V_DUAL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-DiscreteSemi'
+    ; warning
+    @(140.97 mm, 69.85 mm): Symbol Q2 [Q_NMOS_0.2A_50V_DUAL]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(143.51 mm, 105.41 mm): Symbol R9 [10k_0603]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(143.51 mm, 105.41 mm): Symbol R9 [10k_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Jumper'
+    ; warning
+    @(143.51 mm, 113.03 mm): Symbol JP1 [SolderJumper_2_Open]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Jumper'
+    ; warning
+    @(143.51 mm, 113.03 mm): Symbol JP1 [SolderJumper_2_Open]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Capacitor'
+    ; warning
+    @(147.32 mm, 142.24 mm): Symbol C5 [0.1uF_0603_25V_20%]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Capacitor'
+    ; warning
+    @(147.32 mm, 142.24 mm): Symbol C5 [0.1uF_0603_25V_20%]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(152.40 mm, 22.86 mm): Symbol R1 [Pullup_Array_4]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(152.40 mm, 62.23 mm): Symbol R13 [Pullup_Array_4]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(157.48 mm, 22.86 mm): Symbol R1 [Pullup_Array_4]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(157.48 mm, 62.23 mm): Symbol R13 [Pullup_Array_4]
+[footprint_link_issues]: The current configuration does not include the footprint library 'custom_footprints'
+    ; warning
+    @(160.02 mm, 177.80 mm): Symbol U2 [BME280]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'EEV107M010S9GAA'
+    ; warning
+    @(161.29 mm, 143.51 mm): Symbol C7 [EEV107M010S9GAA]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(162.56 mm, 105.41 mm): Symbol R10 [10k_0603]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(162.56 mm, 105.41 mm): Symbol R10 [10k_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Jumper'
+    ; warning
+    @(162.56 mm, 113.03 mm): Symbol JP4 [SolderJumper_2_Open]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Jumper'
+    ; warning
+    @(162.56 mm, 113.03 mm): Symbol JP4 [SolderJumper_2_Open]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Capacitor'
+    ; warning
+    @(167.64 mm, 142.24 mm): Symbol C6 [0.1uF_0603_25V_20%]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Capacitor'
+    ; warning
+    @(167.64 mm, 142.24 mm): Symbol C6 [0.1uF_0603_25V_20%]
+[footprint_link_issues]: The current configuration does not include the footprint library 'tgs2611'
+    ; warning
+    @(180.34 mm, 113.03 mm): Symbol IC1 [TGS2611-C00]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'TGS2611-C00'
+    ; warning
+    @(180.34 mm, 113.03 mm): Symbol IC1 [TGS2611-C00]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(189.23 mm, 60.96 mm): Symbol R15 [10k_4x0603_Array]
+[missing_unit]: Symbol R15 has unplaced units [ B, C, D ]
+    ; warning
+    @(189.23 mm, 60.96 mm): Symbol R15 [10k_4x0603_Array]
+[footprint_link_issues]: The current configuration does not include the footprint library '5013310607'
+    ; warning
+    @(193.04 mm, 177.80 mm): Symbol J7 [5013310607]
+[lib_symbol_issues]: The current configuration does not include the symbol library '5013310607'
+    ; warning
+    @(193.04 mm, 177.80 mm): Symbol J7 [5013310607]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(198.12 mm, 60.96 mm): Symbol R14 [10k_4x0603_Array]
+[missing_unit]: Symbol R14 has unplaced units [ A, C, D ]
+    ; warning
+    @(198.12 mm, 60.96 mm): Symbol R14 [10k_4x0603_Array]
+[footprint_link_issues]: Footprint 'SOT-363' not found in library 'PCM_SparkFun-Semiconductor-Standard'
+    ; warning
+    @(199.39 mm, 82.55 mm): Symbol Q4 [Q_NMOS_0.2A_50V_DUAL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-DiscreteSemi'
+    ; warning
+    @(199.39 mm, 82.55 mm): Symbol Q4 [Q_NMOS_0.2A_50V_DUAL]
+[footprint_link_issues]: Footprint 'SOT-363' not found in library 'PCM_SparkFun-Semiconductor-Standard'
+    ; warning
+    @(214.63 mm, 68.58 mm): Symbol Q4 [Q_NMOS_0.2A_50V_DUAL]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-DiscreteSemi'
+    ; warning
+    @(214.63 mm, 68.58 mm): Symbol Q4 [Q_NMOS_0.2A_50V_DUAL]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(226.06 mm, 60.96 mm): Symbol R11 [10k_4x0603_Array]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(226.06 mm, 60.96 mm): Symbol R11 [10k_4x0603_Array]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Resistor'
+    ; warning
+    @(231.14 mm, 60.96 mm): Symbol R11 [10k_4x0603_Array]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(231.14 mm, 60.96 mm): Symbol R11 [10k_4x0603_Array]
+[missing_unit]: Symbol R11 has unplaced units [ A, B ]
+    ; warning
+    @(231.14 mm, 60.96 mm): Symbol R11 [10k_4x0603_Array]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(232.41 mm, 100.33 mm): Horizontal Wire, length 4.445 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(236.855 mm, 100.33 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(236.855 mm, 100.33 mm): Vertical Wire, length 4.445 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(248.92 mm, 113.03 mm): Vertical Wire, length 8.255 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(248.92 mm, 104.775 mm): Horizontal Wire, length 12.065 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Connector'
+    ; warning
+    @(259.08 mm, 34.29 mm): Symbol J6 [Qwiic_Vertical]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Connector'
+    ; warning
+    @(259.08 mm, 34.29 mm): Symbol J6 [Qwiic_Vertical]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Capacitor'
+    ; warning
+    @(260.35 mm, 58.42 mm): Symbol C8 [0.1uF_0603_25V_20%]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Capacitor'
+    ; warning
+    @(260.35 mm, 58.42 mm): Symbol C8 [0.1uF_0603_25V_20%]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Capacitor'
+    ; warning
+    @(260.35 mm, 142.24 mm): Symbol C2 [10uF_0805_25V_10%]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Capacitor'
+    ; warning
+    @(260.35 mm, 142.24 mm): Symbol C2 [10uF_0805_25V_10%]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(260.35 mm, 149.225 mm): Vertical Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(260.35 mm, 149.225 mm): Vertical Wire, length 4.445 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(276.225 mm, 105.41 mm): Vertical Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(274.32 mm, 105.41 mm): Horizontal Wire, length 1.905 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(276.225 mm, 107.95 mm): Horizontal Wire, length 4.445 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Connector'
+    ; warning
+    @(280.67 mm, 34.29 mm): Symbol J4 [Qwiic_Vertical]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Connector'
+    ; warning
+    @(280.67 mm, 34.29 mm): Symbol J4 [Qwiic_Vertical]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(281.94 mm, 149.225 mm): Horizontal Wire, length 21.59 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(281.94 mm, 147.32 mm): Vertical Wire, length 1.905 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Capacitor'
+    ; warning
+    @(292.10 mm, 142.24 mm): Symbol C1 [0.1uF_0603_25V_20%]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Capacitor'
+    ; warning
+    @(292.10 mm, 142.24 mm): Symbol C1 [0.1uF_0603_25V_20%]
+[footprint_link_issues]: The current configuration does not include the footprint library 'footprints'
+    ; warning
+    @(293.37 mm, 76.20 mm): Symbol U3 [ADS1115IDGST]
+[lib_symbol_issues]: The current configuration does not include the symbol library '2026-07-16_17-55-39'
+    ; warning
+    @(293.37 mm, 76.20 mm): Symbol U3 [ADS1115IDGST]
+[footprint_link_issues]: The current configuration does not include the footprint library 'M20_7830542'
+    ; warning
+    @(293.37 mm, 110.49 mm): Symbol J5 [M20-7830542]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'M20-7830542'
+    ; warning
+    @(293.37 mm, 110.49 mm): Symbol J5 [M20-7830542]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Capacitor'
+    ; warning
+    @(304.80 mm, 142.24 mm): Symbol C3 [10uF_0805_25V_10%]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Capacitor'
+    ; warning
+    @(304.80 mm, 142.24 mm): Symbol C3 [10uF_0805_25V_10%]
+[footprint_link_issues]: The current configuration does not include the footprint library 'SparkFun-Connector'
+    ; warning
+    @(306.07 mm, 34.29 mm): Symbol J8 [Qwiic_4pin_Vertical]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'my_symbols.kicad_sym'
+    ; warning
+    @(306.07 mm, 34.29 mm): Symbol J8 [Qwiic_4pin_Vertical]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(320.04 mm, 64.77 mm): Symbol R19 [10k_0603]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(323.85 mm, 64.77 mm): Symbol R20 [10k_0603]
+[footprint_link_issues]: The current configuration does not include the footprint library 'digikey-footprints'
+    ; warning
+    @(325.12 mm, 114.30 mm): Symbol J10 [640456-3]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'dk_Rectangular-Connectors-Headers-Male-Pins'
+    ; warning
+    @(325.12 mm, 114.30 mm): Symbol J10 [640456-3]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(328.93 mm, 64.77 mm): Symbol R21 [10k_0603]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SparkFun-Resistor'
+    ; warning
+    @(332.74 mm, 64.77 mm): Symbol R22 [10k_0603]
+
+ ** ERC messages: 125  Errors 6  Warnings 119
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
